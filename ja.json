@@ -166,6 +166,13 @@
     "invalidCodeDetail": "コードが間違っているか、期限が切れる",
     "loginError": "ログインエラー",
     "registerError": "サインアップエラー",
+    "googleUnavailableExpoGo": "Google のサインインでは、フルアプリのビルド(Expo Go では利用できません)が必要です。",
+    "googleNoToken": "Googleから受け取ったトークンはありません。 お問い合わせ",
+    "googleInProgress": "Googleのサインインは既に進行中です。",
+    "googlePlayServicesUnavailable": "Google Playサービスはご利用いただけません。",
+    "appleOnlyIOS": "AppleのサインインはiOSでのみ利用できます。",
+    "appleUnavailableDevice": "アップルサインインは、このデバイスでは使用できません。",
+    "appleNoToken": "Appleから受け取ったIDトークンはありません。 お問い合わせ",
     "registerEmailExistsTitle": "既に存在するアカウント",
     "registerEmailExistsDetail": "このメールに既に存在するアカウント。 お問い合わせ",
     "registerEmailExistsConfirm": "サインイン",
@@ -679,7 +686,21 @@
     "registeredStatus": "登録済み",
     "pendingStatus": "ペンディング",
     "priceLabel": "販売価格",
-    "fromLabel": "から始まる"
+    "fromLabel": "から始まる",
+    "waitlistJoinedDetail": "ウェイトリストに参加しました。 スポットが開いているとすぐにお知らせします。",
+    "waitlistLeftMsg": "あなたはウェイトリストを残している",
+    "waitlistLeaveError": "ウェイトリストを離れない",
+    "waitlistJoinError": "ウェイトリストに参加することができません",
+    "waitlistLeaveTitle": "ウェイトリストを残す",
+    "waitlistLeaveConfirm": "ウェイトリストを離れたいですか?",
+    "whatsappNotInstalled": "WhatsAppはこのデバイスにインストールされていない",
+    "reviewRatingRange": "1と5の間の評価を選択してください",
+    "reviewThanksTitle": "お問い合わせ",
+    "reviewSubmitted": "あなたのレビューは正常に提出されました",
+    "loginRequiredTitle": "サインイン必須",
+    "loginRequiredReview": "レビューを残すためにサインイン",
+    "reviewSubmitError": "あなたのレビューを提出することはできません",
+    "loginRequiredWaitlist": "ウェイトリストに参加するためにサインイン"
   },
   "events": {
     "videoBadge": "ビデオ",
@@ -1453,7 +1474,8 @@
     "sectionAddress": "郵便番号",
     "sectionOrganization": "社会招聘",
     "sectionSecurity": "セキュリティ",
-    "qrShareSubtitle": "プロフィールを共有するコードをスキャン"
+    "qrShareSubtitle": "プロフィールを共有するコードをスキャン",
+    "countryPlaceholder": "国を選択"
   },
   "settings": {
     "whoCanContactCurrent": "アンティスパム",
@@ -1559,6 +1581,11 @@
       "daily": "デイリー",
       "off": "オフ"
     },
+    "quietHoursEyebrow": "邪魔しないでください",
+    "quietHoursTitle": "静かな時間",
+    "quietHoursDescription": "夜間に非必須のプッシュ/ SMS 通知を無効にします。 重要なアラートは、常に通過します。",
+    "quietHoursFrom": "詳しくはこちら",
+    "quietHoursTo": "まで",
     "rowSounds": "重要な瞬間に聞こえる",
     "rowSoundsSubtitle": "支払い確認やQRスキャンで音声を再生",
     "rowTwoFA": "2要素認証",
@@ -1837,6 +1864,8 @@
     "declinedSuccess": "招待を拒否しました。",
     "declineError": "招待を拒否できません。",
     "declineButton": "スケジュール",
+    "declineConfirmTitle": "Declineの招待状",
+    "declineConfirmMessage": "この招待状を拒否したいですか?",
     "fromLabel": "詳しくはこちら",
     "toLabel": "採用情報",
     "organizerFallback": "主催者",
@@ -1980,7 +2009,57 @@
     "uploadFailed": "アップロード失敗",
     "downloadFailed": "ダウンロード失敗",
     "tryAgain": "もう一度お試しください",
-    "contactSupport": "コンタクトサポート"
+    "contactSupport": "コンタクトサポート",
+    "timeout": "リクエストが多すぎる。 接続を確認してもう一度お試しください。",
+    "validation": "詳細は無効です。 ハイライトされたフィールドを修正し、もう一度お試しください。",
+    "fields": {
+      "title": "タイトル",
+      "subtitle": "サブタイトル",
+      "message": "メッセージ",
+      "image": "サイトマップ",
+      "cta_label": "ボタンのラベル",
+      "cta_url": "ボタンリンク",
+      "link_url": "サイトマップ",
+      "target_event": "対象イベント",
+      "country": "カントリー",
+      "city": "シティ",
+      "radius_km": "ラディウス",
+      "placement": "配置",
+      "priority": "優先順位",
+      "severity": "サビティ",
+      "audience": "オーディエンス",
+      "platform": "プラットフォーム",
+      "valid_from": "有効から",
+      "valid_until": "有効まで"
+    },
+    "http": {
+      "badRequest": "リクエストを処理できませんでした。 詳しくは、もう一度お試しください。",
+      "unauthorized": "セッションが終了しました。 お問い合わせ",
+      "forbidden": "これを行うことはできません。",
+      "notFound": "探していたものが見つかりませんでした。",
+      "conflict": "このアクションは、現在の状態と競合します。 リフレッシュしてもう一度お試しください。",
+      "tooManyRequests": "多くの試み。 しばらくお待ちください。",
+      "server": "弊社のサーバーは、今でもトラブルが発生しています。 しばらくお待ちください。"
+    },
+    "codes": {
+      "emailTaken": "このメールアドレスは既にアカウントにリンクされています。 サインインまたは別のアドレスを使用する。",
+      "usernameTaken": "既に取得しているユーザー名は、別の名前を選んでください。",
+      "weakPassword": "文字と数字を混ぜる8文字以上のパスワードを選択します。",
+      "invalidCredentials": "電子メールやパスワードが間違っています。 パスワードを再設定するか、パスワードをリセットしてください。",
+      "resetLinkExpired": "このリセットリンクが無効になっています。 新規リクエスト",
+      "otpInvalid": "このコードは間違っているか、期限が切れている。 確認、または新しいものを要求します。",
+      "otpSendFailed": "SMSコードを送信できません。 番号を確認し、もう一度試し、または電子メールでサインインしてください。",
+      "paymentMethodUnsupported": "このイベントではお支払い方法はご利用いただけません。 お問い合わせ",
+      "paymentFailed": "お支払いは完了できませんでした。 請求されていません。 もう一度お試しください。別の方法を使用してください。",
+      "paymentNetwork": "支払い中に接続が低下します。 インターネットをチェックして、もう一度お試しください。2回は課金されません。",
+      "paymentTimeout": "ご入金が予想以上にかかります。 チケットを数分で確認したり、何も到着しない場合はサポートにお問い合わせください。",
+      "paymentVerifyFailed": "ご入金確認ができません。 お急ぎの場合、チケットは短時間で表示されますので、数分以内に再度ご確認ください。",
+      "refundFailed": "返金は送信できませんでした。 もう一度お試しください。",
+      "insufficientBalance": "この操作のための十分なバランス。",
+      "payoutLocked": "既に処理が開始されているため、この支払いは変更できません。 これは間違いであるかどうかサポートにお問い合わせください。",
+      "planLimitReached": "プランの上限に達しました。 計画をアップグレードして継続します。",
+      "countryNotSupported": "お支払いは、この国では利用できません。 サポートされている国でイベントを作成したり、当社にご連絡ください。"
+    }
   },
   "errorBoundary": {
     "eyebrow": "ログイン",
@@ -3239,7 +3318,11 @@
     "codeLabel": "コードコード",
     "emptyEyebrow": "コミュニケーション",
     "emptyTitle": "コードはまだありません",
-    "emptySubtitle": "紹介コードが利用可能になったらただちにここに表示されます。"
+    "emptySubtitle": "紹介コードが利用可能になったらただちにここに表示されます。",
+    "generateCta": "コードを生成する",
+    "generating": "生成...",
+    "generateSuccess": "紹介コードを作成しました!",
+    "generateError": "コードを生成できません。 お問い合わせ"
   },
   "teamManagement": {
     "eyebrow": "スタッフ",
@@ -3701,6 +3784,10 @@
     "watermarkOops": "ツイート",
     "loadError": "支払の細部を荷を積むことができません",
     "paymentNotFound": "お支払いが見つかりません",
+    "blockedNotOwner": "この支払いはアカウントにリンクされていないため、返金をリクエストすることはできません。",
+    "blockedNotCompleted": "確認済みの支払いのみが返金されます。 返金可能な状態ではありません。",
+    "blockedAlreadyRequested": "返金リクエストは、この支払いのために既に進行中です。",
+    "blockedGeneric": "お支払いは返金できません。",
     "back": "バックナンバー",
     "closeA11y": "ふりがな",
     "eyebrow": "リファンド・リファンド",
@@ -4102,7 +4189,8 @@
       "sourceEventTypes": "イベント型ブレイクダウン",
       "sourcePaymentMethods": "支払方法",
       "sourceGeographical": "地理的破壊"
-    }
+    },
+    "widgetDataUnavailable": "データは利用できません。"
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4338,7 +4426,16 @@
     "statusInscriptionCancelled": "キャンセル",
     "statusInscriptionRejected": "注入される",
     "statusInscriptionValidated": "検証済み",
-    "statusInscriptionUnknown": "未知の"
+    "statusInscriptionUnknown": "未知の",
+    "pdfEyebrow": "組織概要",
+    "pdfDate": "日程安排",
+    "pdfPlace": "開催場所",
+    "pdfReference": "参考文献",
+    "pdfStatus": "ステータス",
+    "pdfQrHint": "エントランスにQRコードを表示する",
+    "pdfShareDialog": "シェアサマリー",
+    "pdfError": "今すぐPDFを生成できません。",
+    "pdfA11y": "PDFとしてエクスポート要約"
   },
   "qrCode": {
     "headerEyebrow": "チケット・お泊り",
@@ -6093,6 +6190,16 @@
       "emptyText": "パートナーシップを追加したときにスポンサーがここに表示されます。"
     },
     "eventCreate": {
+      "aiAppliedMessage": "フォームにAIの提案が適用されました",
+      "aiTitleSuggestionsTitle": "タイトルの提案",
+      "aiPricingSuggestionsTitle": "AIのプライシング提案",
+      "aiTicketsCreated": "AI提案のチケット",
+      "aiDescGenerated": "AIによって生成される記述",
+      "aiNeedTitleFirst": "タイトルを最初に追加すると、AIは説明を生成できます。",
+      "galleryPermissionTitle": "許可が必要",
+      "galleryPermissionMessage": "写真ライブラリへのアクセスを許可してください",
+      "videoTooLargeTitle": "ビデオも大きすぎる",
+      "videoTooLargeMessage": "映像は20MB以下でなければなりません。",
       "unsupportedCountryTitle": "国 不可",
       "unsupportedCountryMessage": "イベントEzは、まだこの国で支払いを処理できません(←0)。 イベント作成は拒否されます。 対応国:NotchPay、CitnetPay、Stripe(46カ国)",
       "draftFoundTitle": "ドラフトが見つかりました",
@@ -6161,7 +6268,8 @@
         "ticketMaxMin": "チケット1回につき最大「00」は、最低限以上",
         "fieldLabelRequired": "フィールド#Pre0ラベルが必要です",
         "fieldOptionsRequired": "フィールド「プレゼン00」のオプションが必要です。"
-      }
+      },
+      "loadFailedBlocksSave": "イベントデータはロードできません。 保存する前にページをリロードし、それ以外の場合は現在の情報は上書きされます。"
     },
     "eventRegistrations": {
       "title": "参加登録",
@@ -6371,12 +6479,15 @@
       "kpiEvents": "イベント",
       "kpiRevenue": "返品について",
       "kpiVerifications": "検証",
+      "activityChartTitle": "プラットフォーム活動",
+      "activityChartSubtitle": "過去7日間にわたる監査行動",
       "quickActions": "クイックアクション",
       "recentActivity": "最近の活動",
       "noActivity": "最近の活動はありません",
       "viewAllAudit": "すべての監査ログを表示",
       "actions": {
         "users": "ユーザ名",
+        "verifications": "検証",
         "subscriptions": "サブスクリプション",
         "audit": "監査",
         "announcements": "お知らせ",
@@ -6385,6 +6496,30 @@
         "settings": "コンテンツ",
         "treasury": "トレアスリー"
       }
+    },
+    "verifications": {
+      "watermark": "ユック",
+      "guardTitle": "アクセス制限",
+      "eyebrow": "モデレーション",
+      "title": "検証リクエスト",
+      "typeOrg": "社会招聘",
+      "typeIndividual": "個人のお客様",
+      "noDocuments": "提供文書なし",
+      "approve": "プロモーション",
+      "reject": "リジェクト",
+      "approveTitle": "承認検証",
+      "approveMessage": "確認されたオーガナイザーとして承認する準備は?",
+      "approveBio": "この確認を承認する",
+      "approveSuccess": "組織検証",
+      "rejectTitle": "要求を注入して下さい",
+      "rejectMessage": "プレゼンを拒絶する理由を提示する。 ユーザーと共有されます。",
+      "rejectReasonPlaceholder": "拒絶の理由...",
+      "rejectReasonRequired": "理由は必須です。",
+      "rejectSuccess": "請求拒否",
+      "actionError": "アクションが失敗しました。 お問い合わせ",
+      "loadError": "検証リクエストをロードできません。",
+      "emptyTitle": "未決のリクエスト",
+      "emptySubtitle": "新規のオーガナイザー検証リクエストはこちら"
     },
     "platformSettings": {
       "watermark": "CFGの特長",
@@ -6494,6 +6629,16 @@
       "loadError": "ユーザをロードできない",
       "roleSection": "ログイン",
       "actionsSection": "アクション",
+      "profileSection": "プロフィール",
+      "fieldFirstName": "お名前(名)",
+      "fieldLastName": "お名前(名)",
+      "fieldEmail": "電子メール",
+      "fieldPhone": "電話番号",
+      "fieldCompany": "会社案内",
+      "saveProfile": "プロフィールを保存",
+      "profileUpdated": "プロフィール更新",
+      "profileUpdateError": "プロフィールを更新できません。",
+      "emailRequired": "メールアドレスが必要です。",
       "infoSection": "インフォメーション",
       "active": "アクティブ",
       "inactive": "インアクティブ",
@@ -6686,6 +6831,21 @@
       "title": "監査ログ",
       "target": "ターゲット",
       "user": "ご利用者様 ・・・",
+      "detail": {
+        "guardTitle": "ログ詳細",
+        "eyebrow": "監査ログ",
+        "title": "ログ詳細",
+        "action": "アクション",
+        "target": "ターゲット",
+        "user": "ユーザー登録",
+        "system": "システム",
+        "timestamp": "タイムスタンプ",
+        "ip": "IPアドレス",
+        "userAgent": "デバイス/ブラウザ",
+        "changes": "変更点",
+        "metadata": "インフォメーション",
+        "loadError": "このログをロードできません。"
+      },
       "stats": {
         "total": "合計:"
       },
@@ -6923,5 +7083,13 @@
     "delegateEmailPlaceholder": "ゲストメール",
     "delegateError": "招待状を送信できません。",
     "toCompleteBadge": "オープニング"
+  },
+  "shareCard": {
+    "eyebrow": "お問い合わせ",
+    "button": "ストーリーを共有する",
+    "dialogTitle": "スポットをシェア",
+    "cta": "スポットを予約 →",
+    "errorTitle": "シェア",
+    "errorMessage": "今すぐカードを生成できません。"
   }
 }

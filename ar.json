@@ -166,6 +166,13 @@
     "invalidCodeDetail": "المدونة غير صحيحة أو تنتهي",
     "loginError": "خطأ النسيج",
     "registerError": "خطأ التوقيع",
+    "googleUnavailableExpoGo": "وتحتاج إشارة غوغل إلى بناء التطبيق الكامل (غير متاح في معرض Go).",
+    "googleNoToken": "(لم يرد (توغل أرجوك حاول مرة أخرى",
+    "googleInProgress": "هناك إشارة غوغل جارية",
+    "googlePlayServicesUnavailable": "جوجل بلاي الخدمات غير متاحة على هذا الجهاز",
+    "appleOnlyIOS": "اشارة التفاح متاحة فقط على الايسبول",
+    "appleUnavailableDevice": "اشارة التفاح ليست متاحة على هذا الجهاز",
+    "appleNoToken": "(لا هوية مُحصّلة من (آبل أرجوك حاول مرة أخرى",
     "registerEmailExistsTitle": "الحساب موجود بالفعل",
     "registerEmailExistsDetail": "يوجد حساب بالفعل مع هذا البريد الإلكتروني هل تودين التوقيع؟",
     "registerEmailExistsConfirm": "وقع",
@@ -679,7 +686,21 @@
     "registeredStatus": "المسجلة",
     "pendingStatus": "معلقة",
     "priceLabel": "السعر",
-    "fromLabel": "من البداية"
+    "fromLabel": "من البداية",
+    "waitlistJoinedDetail": "لقد انضممت للنادل سنعلمك بمجرد أن تفتح البقعة",
+    "waitlistLeftMsg": "لقد تركت النادل",
+    "waitlistLeaveError": "لا يمكن ترك النادل",
+    "waitlistJoinError": "غير قادر على الانضمام للنادل",
+    "waitlistLeaveTitle": "اترك النادل",
+    "waitlistLeaveConfirm": "هل أنت متأكد من أنك تريد ترك النادل؟",
+    "whatsappNotInstalled": "(ماساب) لم يركب على هذا الجهاز",
+    "reviewRatingRange": "يرجى اختيار تقدير يتراوح بين 1 و 5",
+    "reviewThanksTitle": "شكراً لك",
+    "reviewSubmitted": "استعراضك تم تقديمه بنجاح",
+    "loginRequiredTitle": "الإشارة المطلوبة",
+    "loginRequiredReview": "وقّع على ترك استعراض",
+    "reviewSubmitError": "لا يمكن أن تقدم استعراضك",
+    "loginRequiredWaitlist": "التوقيع على الانضمام إلى قائمة الانتظار"
   },
   "events": {
     "videoBadge": "Video",
@@ -1453,7 +1474,8 @@
     "sectionAddress": "العنوان",
     "sectionOrganization": "المنظمة",
     "sectionSecurity": "الأمن",
-    "qrShareSubtitle": "امسح هذا الرمز لتشارك ملفك"
+    "qrShareSubtitle": "امسح هذا الرمز لتشارك ملفك",
+    "countryPlaceholder": "اختيار بلد"
   },
   "settings": {
     "whoCanContactCurrent": "ANTI-SPAM",
@@ -1559,6 +1581,11 @@
       "daily": "اليومية",
       "off": "قبالة"
     },
+    "quietHoursEyebrow": "لا تقلق",
+    "quietHoursTitle": "ساعات هادئة",
+    "quietHoursDescription": "(ب) وقف الإخطارات بالدفع غير الأساسي/الخدمة الخاصة بين عشية وضحاها. تنبيهات مهمة تأتي دائماً",
+    "quietHoursFrom": "من",
+    "quietHoursTo": "حتى",
     "rowSounds": "يبدو في اللحظات الرئيسية",
     "rowSoundsSubtitle": "يَلْعبُ a صوت على تأكيدِ الدفعِ أَو مسح QR",
     "rowTwoFA": "التصديق على المفاعلين",
@@ -1837,6 +1864,8 @@
     "declinedSuccess": "ورفضت الدعوة.",
     "declineError": "لم أستطع رفض الدعوة",
     "declineButton": "Decline",
+    "declineConfirmTitle": "دعوة محددة",
+    "declineConfirmMessage": "هل أنت متأكد أنك تريد رفض هذه الدعوة؟",
     "fromLabel": "من",
     "toLabel": "RECIPIENT",
     "organizerFallback": "منظم",
@@ -1980,7 +2009,57 @@
     "uploadFailed": "تم تفريغها",
     "downloadFailed": "تفريغ",
     "tryAgain": "حاول مرة أخرى",
-    "contactSupport": "دعم الاتصال"
+    "contactSupport": "دعم الاتصال",
+    "timeout": "الطلب استغرق وقتاً طويلاً تحقق من اتصالك وحاول مرة أخرى",
+    "validation": "بعض التفاصيل غير صحيحة أصلح الحقول المسلط عليها وحاول مرة أخرى",
+    "fields": {
+      "title": "العنوان",
+      "subtitle": "♪",
+      "message": "الرسالة",
+      "image": "الصورة",
+      "cta_label": "Button label",
+      "cta_url": "Button link",
+      "link_url": "Link",
+      "target_event": "الحدث المستهدف",
+      "country": "البلد",
+      "city": "المدينة",
+      "radius_km": "Radius",
+      "placement": "التنسيب",
+      "priority": "الأولوية",
+      "severity": "الشدة",
+      "audience": "السمع",
+      "platform": "منهاج العمل",
+      "valid_from": "Valid from",
+      "valid_until": "حتى"
+    },
+    "http": {
+      "badRequest": "لم نستطع معالجة طلبك من فضلك تحقق من التفاصيل وحاول مرة أخرى.",
+      "unauthorized": "الدورة انتهت الرجاء التوقيع مرة أخرى.",
+      "forbidden": "ليس لديك إذن لفعل هذا",
+      "notFound": "لم نجد ما كنت تبحث عنه",
+      "conflict": "ويتعارض هذا العمل مع الحالة الراهنة. حاول مرة أخرى",
+      "tooManyRequests": "الكثير من المحاولات من فضلك انتظر لحظة وحاول مرة أخرى",
+      "server": "خوادمنا تواجه مشكلة الآن من فضلك حاول مرة أخرى في بضع دقائق."
+    },
+    "codes": {
+      "emailTaken": "هذا البريد الإلكتروني مرتبط بالفعل بحساب وقع أو استخدم عنوان آخر",
+      "usernameTaken": "هذا الاسم المستخدم قد تم أخذه من فضلك إختار آخر",
+      "weakPassword": "اختر كلمة سر من 8 شخصيات على الأقل تخلط بين الرسائل والأرقام",
+      "invalidCredentials": "بريد إلكتروني غير صحيح أو كلمة سر حاول مرة أخرى أو إعادة صياغة كلمة المرور الخاصة بك.",
+      "resetLinkExpired": "وقد انتهت هذه الصلة المعادة. أطلب واحدة جديدة",
+      "otpInvalid": "هذا الرمز غير صحيح أو انتهى تحقق أو تطلب واحدة جديدة",
+      "otpSendFailed": "لم نستطع إرسال الرمز تحقق من رقمك وحاول مرة أخرى، أو التوقيع على البريد الإلكتروني الخاص بك.",
+      "paymentMethodUnsupported": "طريقة الدفع هذه ليست متاحة لهذا الحدث من فضلك إختر آخر",
+      "paymentFailed": "دفعك لا يمكن إكماله لم يتم اتهامك حاول مرة أخرى أو استخدام طريقة أخرى.",
+      "paymentNetwork": "The connection dropped during payment. تحقق من الانترنت الخاص بك ومحاولة مرة أخرى - لن يتم اتهامك مرتين.",
+      "paymentTimeout": "دفعك يستغرق وقتاً أطول من المتوقع لا تدفع مرة أخرى تحقق من تذاكرك بعد دقائق أو دعم الاتصال إذا لم يصل شيء",
+      "paymentVerifyFailed": "لم نستطع تأكيد دفعك بعد إذا تم اتهامك، ستظهر تذاكرك قريباً... تحقق مرة أخرى في بضع دقائق.",
+      "refundFailed": "طلبك المسترد لا يمكن إرساله حاول مرة أخرى، أو دعم الاتصال.",
+      "insufficientBalance": "عدم كفاية التوازن لهذه العملية.",
+      "payoutLocked": "ولم يعد من الممكن تغيير هذا الأجر لأن التجهيز قد بدأ بالفعل. اتصل بالدعم إذا كان هذا خطأ",
+      "planLimitReached": "لقد وصلت إلى حد خطتك رفع خطتك للاستمرار",
+      "countryNotSupported": "المدفوعات غير متاحة في هذا البلد بعد يمكنك خلق الحدث في بلد مدعوم أو الاتصال بنا"
+    }
   },
   "errorBoundary": {
     "eyebrow": "العاهرات",
@@ -3239,7 +3318,11 @@
     "codeLabel": "CODE",
     "emptyEyebrow": "قادم",
     "emptyTitle": "لا رمز لحد الآن",
-    "emptySubtitle": "رموز الإحالة الخاصة بك سوف تظهر هنا بمجرد توافرها."
+    "emptySubtitle": "رموز الإحالة الخاصة بك سوف تظهر هنا بمجرد توافرها.",
+    "generateCta": "تولد شفرتي",
+    "generating": "تولد...",
+    "generateSuccess": "تم وضع رمز الإحالة",
+    "generateError": "لا يمكن توليد الرمز. أرجوك حاول مرة أخرى"
   },
   "teamManagement": {
     "eyebrow": "TEAM",
@@ -3701,6 +3784,10 @@
     "watermarkOops": "OOPS",
     "loadError": "لا يمكن تحميل تفاصيل الدفع",
     "paymentNotFound": "المدفوعات غير المسددة",
+    "blockedNotOwner": "هذا الدفع ليس مرتبطاً بحسابك لذا لا يمكنك طلب رد المبلغ",
+    "blockedNotCompleted": "ولا يمكن استرداد سوى المدفوعات المؤكدة. هذا الدفع ليس في حالة قابلة للاسترداد",
+    "blockedAlreadyRequested": "ويجري بالفعل تقديم طلب استرداد هذه المدفوعات.",
+    "blockedGeneric": "هذا الدفع ليس مؤهلاً للاسترداد الآن",
     "back": "العودة",
     "closeA11y": "اقترب",
     "eyebrow": "REFUND • REFUND",
@@ -4102,7 +4189,8 @@
       "sourceEventTypes": "تصنيف الأحداث من النوع",
       "sourcePaymentMethods": "أساليب الدفع",
       "sourceGeographical": "التوزيع الجغرافي"
-    }
+    },
+    "widgetDataUnavailable": "البيانات غير متاحة."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4338,7 +4426,16 @@
     "statusInscriptionCancelled": "ألغيت",
     "statusInscriptionRejected": "Rejected",
     "statusInscriptionValidated": "القيمة",
-    "statusInscriptionUnknown": "غير معروف"
+    "statusInscriptionUnknown": "غير معروف",
+    "pdfEyebrow": "موجز",
+    "pdfDate": "التاريخ",
+    "pdfPlace": "المكان",
+    "pdfReference": "المرجع",
+    "pdfStatus": "الحالة",
+    "pdfQrHint": "اظهري هذا الرمز عند المدخل",
+    "pdfShareDialog": "موجز الحصة",
+    "pdfError": "لا يمكن توليد PDF الآن.",
+    "pdfA11y": "موجز للصادرات"
   },
   "qrCode": {
     "headerEyebrow": "TICKET 0",
@@ -6093,6 +6190,16 @@
       "emptyText": "سيظهر الرعاة هنا عندما تضاف شراكة."
     },
     "eventCreate": {
+      "aiAppliedMessage": "طُبقت اقتراحات من منظمة العفو الدولية على الشكل",
+      "aiTitleSuggestionsTitle": "اقتراحات العنوان",
+      "aiPricingSuggestionsTitle": "AI pricing suggestions",
+      "aiTicketsCreated": "Tickets created from the AI suggestions",
+      "aiDescGenerated": "الوصف المتولد عن منظمة العفو الدولية",
+      "aiNeedTitleFirst": "أضف عنواناً أولاً حتى يُمكن لـ (آي آي) أن تُولّد وصفاً",
+      "galleryPermissionTitle": "الإذن المطلوب",
+      "galleryPermissionMessage": "الرجاء السماح بالدخول إلى مكتبة صورك",
+      "videoTooLargeTitle": "فيديو كبير جدا",
+      "videoTooLargeMessage": "يجب أن يكون الفيديو أقل من 20 MB.",
       "unsupportedCountryTitle": "البلد غير متاح",
       "unsupportedCountryMessage": "EventEz cannot process payments in this country yet ().0). سيتم رفض إنشاء الحدث البلدان المدعومة: نوتشباي وسينيتباي وروي (46 بلدا).",
       "draftFoundTitle": "Draft found",
@@ -6161,7 +6268,8 @@
         "ticketMaxMin": "التذاكر &quot;  &quot; الحد الأقصى لكل ترتيب يجب أن يكون مقياساً",
         "fieldLabelRequired": "ملصق ميداني",
         "fieldOptionsRequired": "الخياران مطلوبان في الميدان &quot;  &quot;"
-      }
+      },
+      "loadFailedBlocksSave": "ولا يمكن تحميل بيانات الحدث. أعيدي تحميل الصفحة قبل الادخار وإلا ستكون معلوماتك الحالية مبالغ فيها"
     },
     "eventRegistrations": {
       "title": "التسجيلات",
@@ -6371,12 +6479,15 @@
       "kpiEvents": "الأحداث",
       "kpiRevenue": "الإيرادات",
       "kpiVerifications": "عمليات التحقق",
+      "activityChartTitle": "أنشطة المنبر",
+      "activityChartSubtitle": "إجراءات مراجعة الحسابات خلال الأيام السبعة الماضية",
       "quickActions": "الإجراءات الكمية",
       "recentActivity": "النشاط الحقيقي",
       "noActivity": "No recent activity",
       "viewAllAudit": "مشاهدة جميع سجلات مراجعة الحسابات",
       "actions": {
         "users": "المستعملون",
+        "verifications": "عمليات التحقق",
         "subscriptions": "الاشتراكات",
         "audit": "مراجعة الحسابات",
         "announcements": "إعلانات",
@@ -6385,6 +6496,30 @@
         "settings": "الترتيبات",
         "treasury": "الخزانة"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "تقييد الوصول",
+      "eyebrow": "التحديث",
+      "title": "طلبات التحقق",
+      "typeOrg": "المنظمة",
+      "typeIndividual": "الأفراد",
+      "noDocuments": "لم تقدم أي وثائق",
+      "approve": "الموافقة",
+      "reject": "Reject",
+      "approveTitle": "التحقق من الموافقة",
+      "approveMessage": "تأكيد الموافقة ? ? ? كمنظم متحقق منه؟",
+      "approveBio": "تأكيد الموافقة على هذا التحقق",
+      "approveSuccess": "تم التحقق من",
+      "rejectTitle": "طلب إحالة",
+      "rejectMessage": "اوفر سببا لرفض سيتم تبادلها مع المستخدم",
+      "rejectReasonPlaceholder": "سبب الرفض",
+      "rejectReasonRequired": "هناك حاجة إلى سبب.",
+      "rejectSuccess": "الطلب مرفوض",
+      "actionError": "فشل العمل. أرجوك حاول مرة أخرى",
+      "loadError": "لا يمكن تحميل طلبات التحقق.",
+      "emptyTitle": "لا توجد طلبات معلقة",
+      "emptySubtitle": "وستظهر طلبات جديدة للتحقق من المنظمين هنا."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6494,6 +6629,16 @@
       "loadError": "غير قادر على تحميل المستخدمين",
       "roleSection": "ROLE",
       "actionsSection": "الإجراءات",
+      "profileSection": "PROFILE",
+      "fieldFirstName": "الاسم الأول",
+      "fieldLastName": "الاسم الأخير",
+      "fieldEmail": "Email",
+      "fieldPhone": "Phone",
+      "fieldCompany": "Company",
+      "saveProfile": "انقذوا المكان",
+      "profileUpdated": "موجز مستكمل",
+      "profileUpdateError": "لم أستطع تحديث الملف",
+      "emailRequired": "الإيميل مطلوب",
       "infoSection": "الإعلام",
       "active": "النشاط",
       "inactive": "غير فعال",
@@ -6686,6 +6831,21 @@
       "title": "سجلات مراجعة الحسابات",
       "target": "الهدف",
       "user": "مستعمل",
+      "detail": {
+        "guardTitle": "تفاصيل اللغم",
+        "eyebrow": "سجل مراجعة الحسابات",
+        "title": "تفاصيل اللغم",
+        "action": "الإجراء",
+        "target": "الهدف",
+        "user": "مستعمل",
+        "system": "النظام",
+        "timestamp": "Timestamp",
+        "ip": "عنوان IP",
+        "userAgent": "الجهاز/المتصفح",
+        "changes": "التغييرات",
+        "metadata": "التفاصيل",
+        "loadError": "لا يمكن تحميل هذا السجل."
+      },
       "stats": {
         "total": "المجموع"
       },
@@ -6923,5 +7083,13 @@
     "delegateEmailPlaceholder": "رسالة الضيف",
     "delegateError": "لم أستطع إرسال الدعوة",
     "toCompleteBadge": "أنجز"
+  },
+  "shareCard": {
+    "eyebrow": "سأكون هناك",
+    "button": "حصة من القصة",
+    "dialogTitle": "شارك بقعتي",
+    "cta": "احجز مكانك",
+    "errorTitle": "Share",
+    "errorMessage": "لا يمكن توليد البطاقة الآن."
   }
 }

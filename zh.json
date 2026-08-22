@@ -166,6 +166,13 @@
     "invalidCodeDetail": "代码不正确或过期",
     "loginError": "登录错误",
     "registerError": "注册错误",
+    "googleUnavailableExpoGo": "Google登录需要完整的应用程序构建(在\"博览会\"Go中无法获取).",
+    "googleNoToken": "没有从Google收到任何指示。 请再试一次。",
+    "googleInProgress": "一个Google的登录已经在进行中。",
+    "googlePlayServicesUnavailable": "此设备没有 Google Play 服务 。",
+    "appleOnlyIOS": "苹果签入只可在iOS上获得.",
+    "appleUnavailableDevice": "这个设备上没有苹果的签名",
+    "appleNoToken": "没有从苹果公司收到身份证明 请再试一次。",
     "registerEmailExistsTitle": "账户已存在",
     "registerEmailExistsDetail": "此邮件已存在账户 。 你想报名吗?",
     "registerEmailExistsConfirm": "签名",
@@ -679,7 +686,21 @@
     "registeredStatus": "已登记",
     "pendingStatus": "待决",
     "priceLabel": "价格",
-    "fromLabel": "从"
+    "fromLabel": "从",
+    "waitlistJoinedDetail": "你加入了等待名单。 我们一有地方打开就通知你",
+    "waitlistLeftMsg": "你离开了等待名单",
+    "waitlistLeaveError": "无法离开等待列表",
+    "waitlistJoinError": "无法加入等待列表",
+    "waitlistLeaveTitle": "离开等候名单",
+    "waitlistLeaveConfirm": "你确定要离开等候名单吗?",
+    "whatsappNotInstalled": "在此设备上未安装什么 App",
+    "reviewRatingRange": "请选择1到5之间的评分",
+    "reviewThanksTitle": "谢谢!",
+    "reviewSubmitted": "您的审查成功提交",
+    "loginRequiredTitle": "需要签名",
+    "loginRequiredReview": "签名离开复议",
+    "reviewSubmitError": "无法提交您的审查",
+    "loginRequiredWaitlist": "签名加入等待列表"
   },
   "events": {
     "videoBadge": "视频",
@@ -1453,7 +1474,8 @@
     "sectionAddress": "地址",
     "sectionOrganization": "组织",
     "sectionSecurity": "警卫",
-    "qrShareSubtitle": "扫描此代码以共享您的配置文件"
+    "qrShareSubtitle": "扫描此代码以共享您的配置文件",
+    "countryPlaceholder": "选择一个国家"
   },
   "settings": {
     "whoCanContactCurrent": "安地·萨米姆",
@@ -1559,6 +1581,11 @@
       "daily": "日报",
       "off": "关闭"
     },
+    "quietHoursEyebrow": "别打扰我",
+    "quietHoursTitle": "安静时间",
+    "quietHoursDescription": "在一夜之间暂停非必要的推/短信通知。 重要的警报总是通过。",
+    "quietHoursFrom": "从",
+    "quietHoursTo": "直至",
     "rowSounds": "关键时刻的声音",
     "rowSoundsSubtitle": "在付款确认或QR扫描时播放声音",
     "rowTwoFA": "双要素认证",
@@ -1837,6 +1864,8 @@
     "declinedSuccess": "拒绝了邀请。",
     "declineError": "不能拒绝邀请",
     "declineButton": "递减",
+    "declineConfirmTitle": "拒绝邀请",
+    "declineConfirmMessage": "你确定要拒绝邀请吗?",
     "fromLabel": "从",
     "toLabel": "续集",
     "organizerFallback": "组织者",
@@ -1980,7 +2009,57 @@
     "uploadFailed": "上传失败",
     "downloadFailed": "下载失败",
     "tryAgain": "再试一次",
-    "contactSupport": "联系支助"
+    "contactSupport": "联系支助",
+    "timeout": "请求时间过长。 检查你的连接,再试一次。",
+    "validation": "某些细节无效 。 修复突出显示的字段并再次尝试 。",
+    "fields": {
+      "title": "标题",
+      "subtitle": "字幕",
+      "message": "消息",
+      "image": "图像",
+      "cta_label": "按钮标签",
+      "cta_url": "按钮链接",
+      "link_url": "链接",
+      "target_event": "目标活动",
+      "country": "国家",
+      "city": "城市",
+      "radius_km": "半径",
+      "placement": "安置情况",
+      "priority": "优先权",
+      "severity": "严重性",
+      "audience": "观众",
+      "platform": "平台",
+      "valid_from": "有效期从",
+      "valid_until": "有效期至"
+    },
+    "http": {
+      "badRequest": "我们处理不了你的请求 请检查您的详情 再试一次。",
+      "unauthorized": "您的会话已经过期 。 请再次报名。",
+      "forbidden": "你无权这么做",
+      "notFound": "我们找不到你要找的东西",
+      "conflict": "此动作与当前状态相冲突 。 刷新再试一次",
+      "tooManyRequests": "太多尝试。 请等一下再试一次",
+      "server": "我们的服务器现在有麻烦了 请几分钟后再试一次"
+    },
+    "codes": {
+      "emailTaken": "此邮件已经链接到一个账户 。 签名或使用其他地址。",
+      "usernameTaken": "这个用户名已经取了 请另选一个",
+      "weakPassword": "选择至少8个字符混合字母和数字的密码。",
+      "invalidCredentials": "电子邮件或密码不正确 。 再次尝试或重置密码 。",
+      "resetLinkExpired": "此重设链接已过期 。 要求一个新的。",
+      "otpInvalid": "此代码不正确或已过期 。 检查它或要求一个新的。",
+      "otpSendFailed": "我们无法发送短信密码。 请检查您的号码并再次尝试, 或者在您的电子邮件中签名 。",
+      "paymentMethodUnsupported": "这个事件没有这种支付方法. 请另选一个",
+      "paymentFailed": "你的付款无法完成 你还没被起诉 再试一次或者用另一种方法",
+      "paymentNetwork": "付款时连接下降。 检查一下你的互联网,再试一次——你不会受到两次指控.",
+      "paymentTimeout": "你的薪水比预期的要长 不要再付了——几分钟后检查出站票,或者无事就联系支援.",
+      "paymentVerifyFailed": "我们还没确认你的付款 如果你受到指控,你的车票很快就会出现——几分钟后再次检查.",
+      "refundFailed": "你的退款请求无法发出 请再次尝试, 或联系支持 。",
+      "insufficientBalance": "这一行动余额不足。",
+      "payoutLocked": "由于处理已经开始,这种支付方式不能再被改变. 如果出现错误, 请联系支援 。",
+      "planLimitReached": "你已经达到计划极限了 提升你的计划 继续。",
+      "countryNotSupported": "这个国家还没有付款 您可以在支持的国家创建事件, 或者联系我们 。"
+    }
   },
   "errorBoundary": {
     "eyebrow": "滑动",
@@ -3239,7 +3318,11 @@
     "codeLabel": "CODE 代码",
     "emptyEyebrow": "即将",
     "emptyTitle": "还没有代码",
-    "emptySubtitle": "您的转诊密码一收到就会出现"
+    "emptySubtitle": "您的转诊密码一收到就会出现",
+    "generateCta": "生成我的代码",
+    "generating": "正在生成...",
+    "generateSuccess": "调用代码创建 !",
+    "generateError": "无法生成代码。 请再试一次。"
   },
   "teamManagement": {
     "eyebrow": "团队",
@@ -3701,6 +3784,10 @@
     "watermarkOops": "OPS( OPS)",
     "loadError": "无法装入付款细节",
     "paymentNotFound": "未找到付款",
+    "blockedNotOwner": "这笔付款与你的账户无关 所以你不能要求退款",
+    "blockedNotCompleted": "只有确认的付款才能退款。 这笔钱不能退款",
+    "blockedAlreadyRequested": "这笔付款的退款请求已经在执行之中。",
+    "blockedGeneric": "现在这笔钱没有资格退款",
     "back": "回来",
     "closeA11y": "关闭",
     "eyebrow": "• 难民",
@@ -4102,7 +4189,8 @@
       "sourceEventTypes": "事件类型细分",
       "sourcePaymentMethods": "支付方法",
       "sourceGeographical": "地理细目"
-    }
+    },
+    "widgetDataUnavailable": "无数据 。"
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4338,7 +4426,16 @@
     "statusInscriptionCancelled": "已取消",
     "statusInscriptionRejected": "被拒绝",
     "statusInscriptionValidated": "已验证",
-    "statusInscriptionUnknown": "未知"
+    "statusInscriptionUnknown": "未知",
+    "pdfEyebrow": "登记摘要",
+    "pdfDate": "日期",
+    "pdfPlace": "地点",
+    "pdfReference": "参考文献",
+    "pdfStatus": "状态",
+    "pdfQrHint": "在入口处显示此 QR 代码",
+    "pdfShareDialog": "共享摘要",
+    "pdfError": "现在无法生成 PDF 。",
+    "pdfA11y": "导出摘要为 PDF"
   },
   "qrCode": {
     "headerEyebrow": "{\\fn黑体\\fs22\\bord1\\shad0\\3aHBE\\4aH00\\fscx67\\fscy66\\2cHFFFFFF\\3cH808080}谢谢",
@@ -6093,6 +6190,16 @@
       "emptyText": "增加伙伴关系时,赞助者将出席。"
     },
     "eventCreate": {
+      "aiAppliedMessage": "大赦国际的建议已适用于表格。",
+      "aiTitleSuggestionsTitle": "标题建议",
+      "aiPricingSuggestionsTitle": "AI 定价建议",
+      "aiTicketsCreated": "根据人工智能建议创建的入场券",
+      "aiDescGenerated": "AI生成的说明",
+      "aiNeedTitleFirst": "先增加一个标题,以便AI生成一个描述.",
+      "galleryPermissionTitle": "需要许可",
+      "galleryPermissionMessage": "请允许访问您的相片库",
+      "videoTooLargeTitle": "视频太大了",
+      "videoTooLargeMessage": "视频必须低于20 MB.",
       "unsupportedCountryTitle": "国家不详",
       "unsupportedCountryMessage": "Event Ez 无法处理这个国家的付款( +++) 。 事件创建将被拒绝。 支助国:NochPay、CinetPay和Friede(46个国家)。",
       "draftFoundTitle": "已找到草稿",
@@ -6161,7 +6268,8 @@
         "ticketMaxMin": "每张单子的票 “% 1 ” 最大值必须是分钟 。",
         "fieldLabelRequired": "字段 QQ0QQ 标签需要",
         "fieldOptionsRequired": "需要为“{{label}}”字段提供选项。"
-      }
+      },
+      "loadFailedBlocksSave": "无法装入事件数据 。 在保存前重新装入页面, 否则您当前的信息会被覆盖 。"
     },
     "eventRegistrations": {
       "title": "登记",
@@ -6371,12 +6479,15 @@
       "kpiEvents": "活动",
       "kpiRevenue": "收入",
       "kpiVerifications": "核查",
+      "activityChartTitle": "平台活动",
+      "activityChartSubtitle": "过去7天的审计行动",
       "quickActions": "快速行动",
       "recentActivity": "最近的活动",
       "noActivity": "最近没有活动",
       "viewAllAudit": "查看所有审计日志",
       "actions": {
         "users": "用户",
+        "verifications": "核查",
         "subscriptions": "订阅",
         "audit": "审计",
         "announcements": "通知",
@@ -6385,6 +6496,30 @@
         "settings": "设置",
         "treasury": "财务处"
       }
+    },
+    "verifications": {
+      "watermark": "韩国",
+      "guardTitle": "限制进入",
+      "eyebrow": "调和",
+      "title": "核查请求",
+      "typeOrg": "组织",
+      "typeIndividual": "个人",
+      "noDocuments": "未提供文件",
+      "approve": "核准",
+      "reject": "拒绝",
+      "approveTitle": "核准核查",
+      "approveMessage": "确定批准\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",
+      "approveBio": "确认核准这项核查",
+      "approveSuccess": "组织者已验证",
+      "rejectTitle": "拒绝请求",
+      "rejectMessage": "提供拒绝的理由。 将与用户共享。",
+      "rejectReasonPlaceholder": "拒绝的理由...",
+      "rejectReasonRequired": "需要一个理由。",
+      "rejectSuccess": "请求被驳回",
+      "actionError": "动作失败 。 请再试一次。",
+      "loadError": "无法装入核查请求。",
+      "emptyTitle": "无待处理请求",
+      "emptySubtitle": "新的组织者核查请求将在此出现。"
     },
     "platformSettings": {
       "watermark": "CFG 数字",
@@ -6494,6 +6629,16 @@
       "loadError": "无法装入用户",
       "roleSection": "作用",
       "actionsSection": "行动",
+      "profileSection": "说明",
+      "fieldFirstName": "名称",
+      "fieldLastName": "姓",
+      "fieldEmail": "电子邮件",
+      "fieldPhone": "电话",
+      "fieldCompany": "企业",
+      "saveProfile": "保存配置文件",
+      "profileUpdated": "更新简介",
+      "profileUpdateError": "无法更新资料",
+      "emailRequired": "需要电子邮件。",
       "infoSection": "资料",
       "active": "活动",
       "inactive": "非活动",
@@ -6686,6 +6831,21 @@
       "title": "审计记录",
       "target": "目标",
       "user": "用户 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #",
+      "detail": {
+        "guardTitle": "日志细节",
+        "eyebrow": "审计记录",
+        "title": "日志细节",
+        "action": "行动",
+        "target": "目标",
+        "user": "用户",
+        "system": "系统",
+        "timestamp": "时间戳",
+        "ip": "IP 地址",
+        "userAgent": "设备/ 浏览器",
+        "changes": "变动",
+        "metadata": "细节",
+        "loadError": "无法装入这个日志。"
+      },
       "stats": {
         "total": "共计"
       },
@@ -6923,5 +7083,13 @@
     "delegateEmailPlaceholder": "来宾的电子邮件",
     "delegateError": "无法发送邀请 。",
     "toCompleteBadge": "完成时间"
+  },
+  "shareCard": {
+    "eyebrow": "我会在那里",
+    "button": "分享故事",
+    "dialogTitle": "分享我的位子",
+    "cta": "订个位子吧",
+    "errorTitle": "份额",
+    "errorMessage": "现在无法生成卡片 。"
   }
 }

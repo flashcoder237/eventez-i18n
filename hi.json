@@ -166,6 +166,13 @@
     "invalidCodeDetail": "कोड गलत है या समाप्त हो गया है",
     "loginError": "लॉगिन त्रुटि",
     "registerError": "साइन अप त्रुटि",
+    "googleUnavailableExpoGo": "Google साइन-इन के लिए पूर्ण ऐप निर्माण की आवश्यकता होती है ( एक्सपो गो में अनुपलब्ध)।",
+    "googleNoToken": "Google से प्राप्त कोई टोकन नहीं। फिर से प्रयास करें।",
+    "googleInProgress": "गूगल साइन-इन पहले से ही प्रगति पर है।",
+    "googlePlayServicesUnavailable": "गूगल प्ले सर्विसेज इस उपकरण पर उपलब्ध नहीं है।",
+    "appleOnlyIOS": "एप्पल साइन-इन केवल iOS पर उपलब्ध है।",
+    "appleUnavailableDevice": "एप्पल साइन-इन इस डिवाइस पर उपलब्ध नहीं है।",
+    "appleNoToken": "एप्पल से प्राप्त कोई पहचान टोकन नहीं। फिर से प्रयास करें।",
     "registerEmailExistsTitle": "पहले से ही मौजूद है",
     "registerEmailExistsDetail": "पहले से ही इस ईमेल के साथ मौजूद है। क्या आप साइन इन करना चाहते हैं?",
     "registerEmailExistsConfirm": "साइन इन करें",
@@ -679,7 +686,21 @@
     "registeredStatus": "पंजीकृत",
     "pendingStatus": "लंबित",
     "priceLabel": "मूल्य",
-    "fromLabel": "शुरू"
+    "fromLabel": "शुरू",
+    "waitlistJoinedDetail": "आप प्रतीक्षा सूची में शामिल हो गए हैं। जैसा कि एक स्पॉट खुलता है, हम आपको सूचित करेंगे।",
+    "waitlistLeftMsg": "आपने प्रतीक्षा सूची छोड़ दी है",
+    "waitlistLeaveError": "प्रतीक्षा सूची नहीं छोड़ सकता",
+    "waitlistJoinError": "प्रतीक्षा सूची में शामिल होने में असमर्थ",
+    "waitlistLeaveTitle": "प्रतीक्षा सूची",
+    "waitlistLeaveConfirm": "क्या आपको यकीन है कि आप प्रतीक्षा सूची छोड़ना चाहते हैं?",
+    "whatsappNotInstalled": "इस उपकरण पर WhatsApp स्थापित नहीं है",
+    "reviewRatingRange": "कृपया 1 से 5 के बीच रेटिंग चुनें",
+    "reviewThanksTitle": "धन्यवाद!",
+    "reviewSubmitted": "आपकी समीक्षा सफलतापूर्वक प्रस्तुत की गई थी",
+    "loginRequiredTitle": "साइन इन करें",
+    "loginRequiredReview": "एक समीक्षा छोड़ने के लिए साइन इन करें",
+    "reviewSubmitError": "अपनी समीक्षा प्रस्तुत नहीं कर सका",
+    "loginRequiredWaitlist": "प्रतीक्षा सूची में शामिल होने के लिए साइन इन करें"
   },
   "events": {
     "videoBadge": "वीडियो",
@@ -1453,7 +1474,8 @@
     "sectionAddress": "पता",
     "sectionOrganization": "संगठन",
     "sectionSecurity": "सुरक्षा",
-    "qrShareSubtitle": "अपने प्रोफ़ाइल को साझा करने के लिए इस कोड को स्कैन करें"
+    "qrShareSubtitle": "अपने प्रोफ़ाइल को साझा करने के लिए इस कोड को स्कैन करें",
+    "countryPlaceholder": "देश चुनें"
   },
   "settings": {
     "whoCanContactCurrent": "एंटी-एसपीएएम",
@@ -1559,6 +1581,11 @@
       "daily": "दैनिक",
       "off": "बंद"
     },
+    "quietHoursEyebrow": "परेशान मत करो",
+    "quietHoursTitle": "चुप घंटे",
+    "quietHoursDescription": "रात भर गैर-आवश्यक पुश/SMS अधिसूचनाएँ रोकें। महत्वपूर्ण अलर्ट हमेशा के माध्यम से आते हैं।",
+    "quietHoursFrom": "से",
+    "quietHoursTo": "जब तक",
     "rowSounds": "प्रमुख क्षणों में ध्वनि",
     "rowSoundsSubtitle": "भुगतान की पुष्टि या क्यूआर स्कैन पर ध्वनि चला जाता है",
     "rowTwoFA": "दो कारक प्रमाणीकरण",
@@ -1837,6 +1864,8 @@
     "declinedSuccess": "निमंत्रण में गिरावट आई।",
     "declineError": "निमंत्रण को अस्वीकार नहीं कर सका।",
     "declineButton": "दिसम्बर",
+    "declineConfirmTitle": "निमंत्रण",
+    "declineConfirmMessage": "क्या आप इस निमंत्रण को अस्वीकार करना चाहते हैं?",
     "fromLabel": "से",
     "toLabel": "निवासी",
     "organizerFallback": "आयोजक",
@@ -1980,7 +2009,57 @@
     "uploadFailed": "असफल",
     "downloadFailed": "असफल",
     "tryAgain": "फिर से कोशिश करो",
-    "contactSupport": "संपर्क समर्थन"
+    "contactSupport": "संपर्क समर्थन",
+    "timeout": "अनुरोध बहुत लंबे समय तक लिया। अपने कनेक्शन की जाँच करें और फिर से प्रयास करें।",
+    "validation": "कुछ विवरण अमान्य हैं। हाइलाइट किए गए क्षेत्रों को ठीक करें और फिर से कोशिश करें।",
+    "fields": {
+      "title": "शीर्षक",
+      "subtitle": "उपशीर्षक",
+      "message": "संदेश",
+      "image": "छवि",
+      "cta_label": "बटन लेबल",
+      "cta_url": "बटन लिंक",
+      "link_url": "लिंक",
+      "target_event": "लक्ष्य घटना",
+      "country": "देश",
+      "city": "शहर",
+      "radius_km": "त्रिज्या",
+      "placement": "प्लेसमेंट",
+      "priority": "प्राथमिकता",
+      "severity": "गंभीरता",
+      "audience": "दर्शक",
+      "platform": "मंच",
+      "valid_from": "से मान्य",
+      "valid_until": "जब तक मान्य"
+    },
+    "http": {
+      "badRequest": "हम आपके अनुरोध को संसाधित नहीं कर सकते। कृपया अपना विवरण चेक करें और फिर से प्रयास करें।",
+      "unauthorized": "आपका सत्र समाप्त हो गया है। फिर से साइन इन करें।",
+      "forbidden": "आपको ऐसा करने की अनुमति नहीं है।",
+      "notFound": "हमें पता नहीं था कि आप क्या देख रहे थे।",
+      "conflict": "यह कार्रवाई वर्तमान राज्य के साथ संघर्ष करती है। फिर से प्रयास करें।",
+      "tooManyRequests": "बहुत सारे प्रयास। कृपया एक पल प्रतीक्षा करें और फिर से प्रयास करें।",
+      "server": "हमारे सर्वर अभी तक परेशान हैं। कुछ ही मिनटों में फिर से प्रयास करें।"
+    },
+    "codes": {
+      "emailTaken": "यह ईमेल पहले से ही एक खाते से जुड़ा हुआ है। साइन इन करें या किसी अन्य पते का उपयोग करें।",
+      "usernameTaken": "उस उपयोगकर्ता का नाम पहले से ही लिया जाता है, कृपया एक और चुनें।",
+      "weakPassword": "कम से कम 8 अक्षरों के मिश्रण अक्षरों और संख्याओं का एक पासवर्ड चुनें।",
+      "invalidCredentials": "गलत ईमेल या पासवर्ड। फिर से कोशिश करें या अपना पासवर्ड रीसेट करें।",
+      "resetLinkExpired": "यह रीसेट लिंक समाप्त हो गया है। एक नया अनुरोध करें",
+      "otpInvalid": "यह कोड गलत है या समाप्त हो गया है। इसे चेक करें या एक नया अनुरोध करें।",
+      "otpSendFailed": "हम एसएमएस कोड नहीं भेज सकते। अपनी संख्या की जाँच करें और फिर से कोशिश करें, या अपने ईमेल के साथ साइन इन करें।",
+      "paymentMethodUnsupported": "यह भुगतान विधि इस घटना के लिए उपलब्ध नहीं है। कृपया एक और चयन करें।",
+      "paymentFailed": "आपका भुगतान पूरा नहीं किया जा सकता है। आपने शुल्क नहीं लिया है। फिर से कोशिश करें या किसी अन्य विधि का उपयोग करें।",
+      "paymentNetwork": "भुगतान के दौरान कनेक्शन गिरा दिया गया। अपने इंटरनेट की जाँच करें और फिर से प्रयास करें - आपको दो बार चार्ज नहीं किया जाएगा।",
+      "paymentTimeout": "आपका भुगतान अपेक्षित से अधिक समय तक हो रहा है। फिर से भुगतान न करें - कुछ मिनट में अपने टिकट की जांच करें, या संपर्क समर्थन अगर कुछ नहीं आता है।",
+      "paymentVerifyFailed": "हम अभी तक आपके भुगतान की पुष्टि नहीं कर सकते। यदि आपको शुल्क लिया गया है, तो आपका टिकट शीघ्र ही दिखाई देगा - कुछ ही मिनटों में फिर से चेक करें।",
+      "refundFailed": "आपकी वापसी का अनुरोध नहीं किया जा सकता। कृपया फिर से प्रयास करें, या संपर्क समर्थन करें।",
+      "insufficientBalance": "इस ऑपरेशन के लिए अपर्याप्त संतुलन।",
+      "payoutLocked": "यह भुगतान अब नहीं बदला जा सकता क्योंकि प्रसंस्करण पहले ही शुरू हो चुका है। अगर यह गलती है तो समर्थन से संपर्क करें।",
+      "planLimitReached": "आप अपनी योजना की सीमा तक पहुंच गए हैं। अपनी योजना को जारी रखने के लिए अपग्रेड करें।",
+      "countryNotSupported": "इस देश में अभी तक भुगतान उपलब्ध नहीं है। आप एक समर्थित देश में घटना बना सकते हैं, या हमसे संपर्क कर सकते हैं।"
+    }
   },
   "errorBoundary": {
     "eyebrow": "ग्लिच",
@@ -3239,7 +3318,11 @@
     "codeLabel": "कोड",
     "emptyEyebrow": "आ रहा है",
     "emptyTitle": "अभी तक कोई कोड नहीं",
-    "emptySubtitle": "जैसे ही वे उपलब्ध हैं, आपका रेफरल कोड यहां दिखाई देगा।"
+    "emptySubtitle": "जैसे ही वे उपलब्ध हैं, आपका रेफरल कोड यहां दिखाई देगा।",
+    "generateCta": "मेरा कोड उत्पन्न करें",
+    "generating": "जनरेटिंग ...",
+    "generateSuccess": "रेफ़रल कोड बनाया!",
+    "generateError": "कोड उत्पन्न नहीं कर सका। फिर से प्रयास करें।"
   },
   "teamManagement": {
     "eyebrow": "टीम",
@@ -3701,6 +3784,10 @@
     "watermarkOops": "OOPS",
     "loadError": "भुगतान विवरण लोड नहीं कर सकता",
     "paymentNotFound": "भुगतान नहीं मिला",
+    "blockedNotOwner": "यह भुगतान आपके खाते से जुड़ा नहीं है, इसलिए आप इसके लिए वापसी का अनुरोध नहीं कर सकते।",
+    "blockedNotCompleted": "केवल पुष्टि की गई भुगतान को वापस कर दिया जा सकता है। यह भुगतान वापसी योग्य राज्य में नहीं है।",
+    "blockedAlreadyRequested": "इस भुगतान के लिए रिफंड अनुरोध पहले से ही प्रगति पर है।",
+    "blockedGeneric": "यह भुगतान अभी एक वापसी के लिए योग्य नहीं है।",
     "back": "वापस",
     "closeA11y": "बंद",
     "eyebrow": "REFUND",
@@ -4102,7 +4189,8 @@
       "sourceEventTypes": "घटना प्रकार टूटने",
       "sourcePaymentMethods": "भुगतान विधि",
       "sourceGeographical": "भौगोलिक ब्रेकडाउन"
-    }
+    },
+    "widgetDataUnavailable": "अनुपलब्ध डेटा"
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4338,7 +4426,16 @@
     "statusInscriptionCancelled": "रद्द करना",
     "statusInscriptionRejected": "अस्वीकार",
     "statusInscriptionValidated": "मान्य",
-    "statusInscriptionUnknown": "अज्ञात"
+    "statusInscriptionUnknown": "अज्ञात",
+    "pdfEyebrow": "पंजीकरण सारांश",
+    "pdfDate": "तारीख",
+    "pdfPlace": "स्थान",
+    "pdfReference": "संदर्भ",
+    "pdfStatus": "स्थिति",
+    "pdfQrHint": "प्रवेश पर इस QR कोड को दिखाएं",
+    "pdfShareDialog": "सारांश साझा करें",
+    "pdfError": "अभी पीडीएफ उत्पन्न नहीं कर सका।",
+    "pdfA11y": "PDF के रूप में सारांश निर्यात करें"
   },
   "qrCode": {
     "headerEyebrow": "Ticket · a tumblr.",
@@ -6093,6 +6190,16 @@
       "emptyText": "जब एक साझेदारी को जोड़ा जाता है तो प्रायोजक यहां दिखाई देंगे।"
     },
     "eventCreate": {
+      "aiAppliedMessage": "एआई सुझाव फॉर्म पर लागू किया गया है",
+      "aiTitleSuggestionsTitle": "शीर्षक सुझाव",
+      "aiPricingSuggestionsTitle": "एआई मूल्य निर्धारण सुझाव",
+      "aiTicketsCreated": "एआई सुझावों से बनाया गया टिकट",
+      "aiDescGenerated": "एआई द्वारा उत्पन्न विवरण",
+      "aiNeedTitleFirst": "पहले एक शीर्षक जोड़ें ताकि एआई विवरण उत्पन्न कर सके।",
+      "galleryPermissionTitle": "अनुमति की आवश्यकता",
+      "galleryPermissionMessage": "कृपया अपनी फोटो लाइब्रेरी तक पहुंच की अनुमति दें",
+      "videoTooLargeTitle": "बहुत बड़ा",
+      "videoTooLargeMessage": "वीडियो 20 MB के तहत होना चाहिए।",
       "unsupportedCountryTitle": "उपलब्ध नहीं",
       "unsupportedCountryMessage": "घटनाईज़ इस देश में अभी तक भुगतान प्रक्रिया नहीं कर सकता है। घटना निर्माण को खारिज कर दिया जाएगा। समर्थित देश: नॉटचपे, सिनेटपे और स्ट्रिप (46 देशों)।",
       "draftFoundTitle": "पाया गया",
@@ -6161,7 +6268,8 @@
         "ticketMaxMin": "टिकट \"tot0\" अधिकतम क्रम न्यूनतम होना चाहिए",
         "fieldLabelRequired": "फील्ड # atomy0 लेबल की आवश्यकता है",
         "fieldOptionsRequired": "विकल्प फ़ील्ड के लिए आवश्यक हैं"
-      }
+      },
+      "loadFailedBlocksSave": "घटना डेटा लोड नहीं किया जा सकता है। सहेजने से पहले पृष्ठ को फिर से लोड करें, अन्यथा आपकी वर्तमान जानकारी को ओवरराइट किया जाएगा।"
     },
     "eventRegistrations": {
       "title": "पंजीकरण",
@@ -6371,12 +6479,15 @@
       "kpiEvents": "आयोजन",
       "kpiRevenue": "राजस्व",
       "kpiVerifications": "सत्यापन",
+      "activityChartTitle": "मंच गतिविधि",
+      "activityChartSubtitle": "पिछले 7 दिनों में ऑडिशन कार्रवाई",
       "quickActions": "त्वरित कार्रवाई",
       "recentActivity": "रोगी गतिविधि",
       "noActivity": "हाल ही में गतिविधि नहीं",
       "viewAllAudit": "सभी ऑडिट लॉग देखें",
       "actions": {
         "users": "उपयोगकर्ता",
+        "verifications": "सत्यापन",
         "subscriptions": "सदस्यता",
         "audit": "लेखा",
         "announcements": "घोषणा",
@@ -6385,6 +6496,30 @@
         "settings": "सेटिंग्स",
         "treasury": "खजाना"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "प्रतिबंधित पहुँच",
+      "eyebrow": "मॉडरेशन",
+      "title": "सत्यापन अनुरोध",
+      "typeOrg": "संगठन",
+      "typeIndividual": "व्यक्तिगत",
+      "noDocuments": "कोई दस्तावेज नहीं",
+      "approve": "स्वीकृति",
+      "reject": "अस्वीकृति",
+      "approveTitle": "सत्यापन",
+      "approveMessage": "To make a new version of a new version.",
+      "approveBio": "इस सत्यापन को मंजूरी देने की पुष्टि करें",
+      "approveSuccess": "आयोजक सत्यापित",
+      "rejectTitle": "अस्वीकृति",
+      "rejectMessage": "To make a reason of a person. इसे उपयोगकर्ता के साथ साझा किया जाएगा।",
+      "rejectReasonPlaceholder": "अस्वीकृति के कारण...",
+      "rejectReasonRequired": "एक कारण की आवश्यकता है।",
+      "rejectSuccess": "अनुरोध खारिज",
+      "actionError": "कार्रवाई विफल रही। फिर से प्रयास करें।",
+      "loadError": "सत्यापन अनुरोधों को लोड नहीं कर सका।",
+      "emptyTitle": "कोई लंबित अनुरोध नहीं",
+      "emptySubtitle": "नया आयोजक सत्यापन अनुरोध यहां दिखाई देगा।"
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6494,6 +6629,16 @@
       "loadError": "उपयोगकर्ता को लोड करने में असमर्थ",
       "roleSection": "रोल",
       "actionsSection": "कार्रवाई",
+      "profileSection": "प्रोफाइल",
+      "fieldFirstName": "पहला नाम",
+      "fieldLastName": "अंतिम नाम",
+      "fieldEmail": "ईमेल",
+      "fieldPhone": "फ़ोन",
+      "fieldCompany": "कंपनी",
+      "saveProfile": "प्रोफ़ाइल सहेजें",
+      "profileUpdated": "प्रोफ़ाइल अद्यतन",
+      "profileUpdateError": "प्रोफ़ाइल को अपडेट नहीं कर सका।",
+      "emailRequired": "ईमेल की आवश्यकता है।",
       "infoSection": "सूचना",
       "active": "सक्रिय",
       "inactive": "निष्क्रिय",
@@ -6686,6 +6831,21 @@
       "title": "ऑडिट लॉग",
       "target": "लक्ष्य",
       "user": "US$1.",
+      "detail": {
+        "guardTitle": "लॉग विस्तार",
+        "eyebrow": "ऑडिट लॉग",
+        "title": "लॉग विस्तार",
+        "action": "कार्रवाई",
+        "target": "लक्ष्य",
+        "user": "उपयोगकर्ता",
+        "system": "प्रणाली",
+        "timestamp": "टाइमस्टैम्प",
+        "ip": "आईपी एड्रेस",
+        "userAgent": "उपकरण / ब्राउज़र",
+        "changes": "परिवर्तन",
+        "metadata": "विवरण",
+        "loadError": "इस लॉग को लोड नहीं कर सका।"
+      },
       "stats": {
         "total": "कुल"
       },
@@ -6923,5 +7083,13 @@
     "delegateEmailPlaceholder": "अतिथि का ईमेल",
     "delegateError": "निमंत्रण नहीं भेज सकता।",
     "toCompleteBadge": "To make a complete."
+  },
+  "shareCard": {
+    "eyebrow": "मैं वहाँ हूँ",
+    "button": "कहानी साझा करें",
+    "dialogTitle": "मेरा स्थान साझा करें",
+    "cta": "अपना स्थान बुक करें →",
+    "errorTitle": "शेयर",
+    "errorMessage": "अभी तक कार्ड उत्पन्न नहीं कर सका।"
   }
 }

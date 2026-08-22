@@ -166,6 +166,13 @@
     "invalidCodeDetail": "Code ist falsch oder abgelaufen",
     "loginError": "Anmeldefehler",
     "registerError": "Anmeldefehler",
+    "googleUnavailableExpoGo": "Google-Anmeldung erfordert die vollständige App Build (nicht verfügbar in Expo Go).",
+    "googleNoToken": "Kein Token von Google erhalten. Bitte versuchen Sie es noch einmal.",
+    "googleInProgress": "Eine Google-Anmeldung ist bereits im Gange.",
+    "googlePlayServicesUnavailable": "Google Play Services ist auf diesem Gerät nicht verfügbar.",
+    "appleOnlyIOS": "Apple-Anmeldung ist nur auf iOS verfügbar.",
+    "appleUnavailableDevice": "Apple-Anmeldung ist auf diesem Gerät nicht verfügbar.",
+    "appleNoToken": "Kein Identitäts-Token von Apple. Bitte versuchen Sie es noch einmal.",
     "registerEmailExistsTitle": "Konto bereits vorhanden",
     "registerEmailExistsDetail": "Ein Konto existiert bereits mit dieser E-Mail. Möchten Sie sich anmelden?",
     "registerEmailExistsConfirm": "Zeichen",
@@ -679,7 +686,21 @@
     "registeredStatus": "Registriert",
     "pendingStatus": "Ausstehend",
     "priceLabel": "Preis",
-    "fromLabel": "Beginnend mit"
+    "fromLabel": "Beginnend mit",
+    "waitlistJoinedDetail": "Sie haben sich der Warteliste angeschlossen. Wir werden Sie benachrichtigen, sobald sich ein Platz öffnet.",
+    "waitlistLeftMsg": "Sie haben die Warteliste verlassen",
+    "waitlistLeaveError": "Kann die Warteliste nicht verlassen",
+    "waitlistJoinError": "Es kann nicht an der Warteliste teilnehmen",
+    "waitlistLeaveTitle": "Lassen Sie die Warteliste",
+    "waitlistLeaveConfirm": "Bist du sicher, dass du die Warteliste verlassen willst?",
+    "whatsappNotInstalled": "WhatsApp ist auf diesem Gerät nicht installiert",
+    "reviewRatingRange": "Bitte wählen Sie eine Bewertung zwischen 1 und 5",
+    "reviewThanksTitle": "Vielen Dank!",
+    "reviewSubmitted": "Ihre Bewertung wurde erfolgreich eingereicht",
+    "loginRequiredTitle": "Anmeldung erforderlich",
+    "loginRequiredReview": "Melden Sie sich an, um eine Überprüfung zu hinterlassen",
+    "reviewSubmitError": "Konnte Ihre Bewertung nicht einreichen",
+    "loginRequiredWaitlist": "Melden Sie sich an, um der Warteliste beizutreten"
   },
   "events": {
     "videoBadge": "Video",
@@ -1453,7 +1474,8 @@
     "sectionAddress": "Anschrift",
     "sectionOrganization": "Organisation",
     "sectionSecurity": "Sicherheit",
-    "qrShareSubtitle": "Scannen Sie diesen Code, um Ihr Profil zu teilen"
+    "qrShareSubtitle": "Scannen Sie diesen Code, um Ihr Profil zu teilen",
+    "countryPlaceholder": "Wählen Sie ein Land"
   },
   "settings": {
     "whoCanContactCurrent": "ANTI-SPAM",
@@ -1559,6 +1581,11 @@
       "daily": "Täglich",
       "off": "Ausgeschaltet"
     },
+    "quietHoursEyebrow": "Nicht stören",
+    "quietHoursTitle": "Stille Stunden",
+    "quietHoursDescription": "Unterbrechen Sie nicht-essentielle Push / SMS-Benachrichtigungen über Nacht. Wichtige Warnungen kommen immer durch.",
+    "quietHoursFrom": "von",
+    "quietHoursTo": "bis",
     "rowSounds": "Klingt in Schlüsselmomenten",
     "rowSoundsSubtitle": "Abspielt einen Sound auf Zahlungsbestätigung oder QR-Scan",
     "rowTwoFA": "Zwei-Faktor-Authentifizierung",
@@ -1837,6 +1864,8 @@
     "declinedSuccess": "Die Einladung ging zurück.",
     "declineError": "Konnte die Einladung nicht ablehnen.",
     "declineButton": "Rückgang",
+    "declineConfirmTitle": "Einladung zum Niedergang",
+    "declineConfirmMessage": "Sind Sie sicher, dass Sie diese Einladung ablehnen möchten?",
     "fromLabel": "AUS",
     "toLabel": "Empfänger",
     "organizerFallback": "Veranstalter",
@@ -1980,7 +2009,57 @@
     "uploadFailed": "Upload fehlgeschlagen",
     "downloadFailed": "Download fehlgeschlagen",
     "tryAgain": "Versuchen Sie es noch einmal",
-    "contactSupport": "Kontaktträger"
+    "contactSupport": "Kontaktträger",
+    "timeout": "Der Antrag dauerte zu lange. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "validation": "Einige Details sind ungültig. Beheben Sie die hervorgehobenen Felder und versuchen Sie es erneut.",
+    "fields": {
+      "title": "Titel",
+      "subtitle": "Untertitel",
+      "message": "Nachricht",
+      "image": "Bild",
+      "cta_label": "Knopfetikett",
+      "cta_url": "Knopfverbindung",
+      "link_url": "Link",
+      "target_event": "Zielereignis",
+      "country": "Land",
+      "city": "Stadt",
+      "radius_km": "Radius",
+      "placement": "Platzierung",
+      "priority": "Priorität",
+      "severity": "Schweregrad",
+      "audience": "Publikum",
+      "platform": "Plattform",
+      "valid_from": "Gültig von",
+      "valid_until": "gültig bis"
+    },
+    "http": {
+      "badRequest": "Wir konnten Ihre Anfrage nicht bearbeiten. Bitte überprüfen Sie Ihre Daten und versuchen Sie es erneut.",
+      "unauthorized": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.",
+      "forbidden": "Sie haben keine Erlaubnis, dies zu tun.",
+      "notFound": "Wir konnten nicht finden, wonach du gesucht hast.",
+      "conflict": "Diese Aktion steht im Widerspruch zum aktuellen Zustand. Erfrischen und erneut versuchen.",
+      "tooManyRequests": "Zu viele Versuche. Bitte warten Sie einen Moment und versuchen Sie es erneut.",
+      "server": "Unsere Server haben momentan Probleme. Bitte versuchen Sie es in wenigen Minuten noch einmal."
+    },
+    "codes": {
+      "emailTaken": "Diese E-Mail ist bereits mit einem Konto verknüpft. Melden Sie sich an oder verwenden Sie eine andere Adresse.",
+      "usernameTaken": "Dieser benutzername ist bereits vergeben, bitte wählen sie einen anderen.",
+      "weakPassword": "Wählen Sie ein Passwort mit mindestens 8 Zeichen, die Buchstaben und Zahlen mischen.",
+      "invalidCredentials": "Falsche E-Mail oder Passwort. Versuchen Sie es erneut oder setzen Sie Ihr Passwort zurück.",
+      "resetLinkExpired": "Diese Reset-Verbindung ist abgelaufen. Fordern Sie eine neue an.",
+      "otpInvalid": "Dieser Code ist falsch oder abgelaufen. Überprüfen Sie es oder fordern Sie eine neue an.",
+      "otpSendFailed": "Wir konnten den SMS-Code nicht senden. Überprüfen Sie Ihre Nummer und versuchen Sie es erneut oder melden Sie sich mit Ihrer E-Mail an.",
+      "paymentMethodUnsupported": "Diese Zahlungsmethode ist für dieses Ereignis nicht verfügbar. Bitte wählen Sie einen anderen.",
+      "paymentFailed": "Ihre Zahlung konnte nicht abgeschlossen werden. Sie wurden nicht angeklagt. Versuchen Sie es erneut oder verwenden Sie eine andere Methode.",
+      "paymentNetwork": "Die Verbindung fiel während der Zahlung. Überprüfen Sie Ihr Internet und versuchen Sie es erneut - Sie werden nicht zweimal belastet.",
+      "paymentTimeout": "Ihre Zahlung dauert länger als erwartet. Zahlen Sie nicht noch einmal - überprüfen Sie Ihre Tickets in wenigen Minuten oder kontaktieren Sie den Support, wenn nichts eintrifft.",
+      "paymentVerifyFailed": "Wir konnten Ihre Zahlung noch nicht bestätigen. Wenn sie in rechnung gestellt wurden, erscheinen ihre tickets in kürze - überprüfen sie es in wenigen minuten erneut.",
+      "refundFailed": "Ihre Rückerstattungsanfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie den Support.",
+      "insufficientBalance": "Unzureichendes Gleichgewicht für diese Operation.",
+      "payoutLocked": "Diese Auszahlung kann nicht mehr geändert werden, da die Verarbeitung bereits begonnen hat. Kontaktieren Sie den Support, wenn dies ein Fehler ist.",
+      "planLimitReached": "Sie haben das Limit Ihres Plans erreicht. Aktualisieren Sie Ihren Plan, um fortzufahren.",
+      "countryNotSupported": "Zahlungen sind in diesem Land noch nicht verfügbar. Sie können die Veranstaltung in einem unterstützten Land erstellen oder uns kontaktieren."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Glitch",
@@ -3239,7 +3318,11 @@
     "codeLabel": "CODE",
     "emptyEyebrow": "Kommend",
     "emptyTitle": "Noch kein Code",
-    "emptySubtitle": "Ihre Empfehlungscodes werden hier angezeigt, sobald sie verfügbar sind."
+    "emptySubtitle": "Ihre Empfehlungscodes werden hier angezeigt, sobald sie verfügbar sind.",
+    "generateCta": "Generieren Sie meinen Code",
+    "generating": "Erzeugung...",
+    "generateSuccess": "Referral Code erstellt!",
+    "generateError": "Ich konnte den Code nicht generieren. Bitte versuchen Sie es noch einmal."
   },
   "teamManagement": {
     "eyebrow": "TEAM",
@@ -3701,6 +3784,10 @@
     "watermarkOops": "OPS",
     "loadError": "Könnte keine Zahlungsdetails laden",
     "paymentNotFound": "Zahlung nicht gefunden",
+    "blockedNotOwner": "Diese Zahlung ist nicht mit Ihrem Konto verknüpft, so dass Sie keine Rückerstattung dafür anfordern können.",
+    "blockedNotCompleted": "Nur bestätigte Zahlungen können erstattet werden. Diese Zahlung ist nicht in einem erstattungsfähigen Zustand.",
+    "blockedAlreadyRequested": "Ein Rückerstattungsantrag ist bereits im Gange für diese Zahlung.",
+    "blockedGeneric": "Diese Zahlung ist derzeit nicht für eine Rückerstattung berechtigt.",
     "back": "Rücken",
     "closeA11y": "Schließen",
     "eyebrow": "ERSTATTUNG • ERSTATTUNG",
@@ -4102,7 +4189,8 @@
       "sourceEventTypes": "Aufschlüsselung nach Ereignisarten",
       "sourcePaymentMethods": "Zahlungsmethoden",
       "sourceGeographical": "Geografische Aufgliederung"
-    }
+    },
+    "widgetDataUnavailable": "Daten nicht verfügbar."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4338,7 +4426,16 @@
     "statusInscriptionCancelled": "Storniert",
     "statusInscriptionRejected": "abgelehnt",
     "statusInscriptionValidated": "validiert",
-    "statusInscriptionUnknown": "Unbekannt"
+    "statusInscriptionUnknown": "Unbekannt",
+    "pdfEyebrow": "ZUSAMMENFASSUNG DER REGISTRIERUNG",
+    "pdfDate": "Datum",
+    "pdfPlace": "Ort",
+    "pdfReference": "Referenznummer",
+    "pdfStatus": "Status",
+    "pdfQrHint": "Zeigen Sie diesen QR-Code am Eingang",
+    "pdfShareDialog": "Aktienübersicht",
+    "pdfError": "Konnte das PDF jetzt nicht generieren.",
+    "pdfA11y": "Export Zusammenfassung als PDF"
   },
   "qrCode": {
     "headerEyebrow": "TICKET · {{ref}}",
@@ -6093,6 +6190,16 @@
       "emptyText": "Sponsoren werden hier erscheinen, wenn eine Partnerschaft hinzugefügt wird."
     },
     "eventCreate": {
+      "aiAppliedMessage": "KI-Vorschläge wurden auf das Formular angewendet",
+      "aiTitleSuggestionsTitle": "Titelvorschläge",
+      "aiPricingSuggestionsTitle": "AI Preisempfehlungen",
+      "aiTicketsCreated": "Tickets, die aus den KI-Vorschlägen erstellt wurden",
+      "aiDescGenerated": "Beschreibung generiert von AI",
+      "aiNeedTitleFirst": "Fügen Sie zuerst einen Titel hinzu, damit die KI eine Beschreibung erstellen kann.",
+      "galleryPermissionTitle": "Genehmigung erforderlich",
+      "galleryPermissionMessage": "Bitte erlauben Sie Zugriff auf Ihre Fotobibliothek",
+      "videoTooLargeTitle": "Video zu groß",
+      "videoTooLargeMessage": "Das Video muss unter 20 MB sein.",
       "unsupportedCountryTitle": "Land nicht verfügbar",
       "unsupportedCountryMessage": "EventEz kann Zahlungen in diesem Land noch nicht verarbeiten ({{country}}). Die Schöpfung wird abgelehnt. Unterstützte Länder: NotchPay, CinetPay und Stripe (46 Länder).",
       "draftFoundTitle": "Gefunden",
@@ -6161,7 +6268,8 @@
         "ticketMaxMin": "Ticket \"{{label}}\" max pro Bestellung muss ≥ die min sein",
         "fieldLabelRequired": "Feld #{{n}} Label ist erforderlich",
         "fieldOptionsRequired": "Optionen sind für das Feld „{{label}} erforderlich"
-      }
+      },
+      "loadFailedBlocksSave": "Die Ereignisdaten konnten nicht geladen werden. Laden Sie die Seite vor dem Speichern neu, sonst würden Ihre aktuellen Informationen überschrieben."
     },
     "eventRegistrations": {
       "title": "Registrierungen",
@@ -6371,12 +6479,15 @@
       "kpiEvents": "Veranstaltungen",
       "kpiRevenue": "Einnahmen",
       "kpiVerifications": "Überprüfungen",
+      "activityChartTitle": "Plattformaktivität",
+      "activityChartSubtitle": "Auditmaßnahmen in den letzten 7 Tagen",
       "quickActions": "SCHNELLMASSNAHMEN",
       "recentActivity": "JÜNGIGE AKTIVITÄT",
       "noActivity": "Keine aktuellen Aktivitäten",
       "viewAllAudit": "Alle Audit Logs anzeigen",
       "actions": {
         "users": "Nutzer",
+        "verifications": "Überprüfungen",
         "subscriptions": "Abonnements",
         "audit": "Audit",
         "announcements": "Ankündigungen",
@@ -6385,6 +6496,30 @@
         "settings": "Einstellungen",
         "treasury": "Schatzamt"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "Zugangsbeschränkung",
+      "eyebrow": "Moderation",
+      "title": "Überprüfungsanträge",
+      "typeOrg": "Organisation",
+      "typeIndividual": "Einzelperson",
+      "noDocuments": "Keine Unterlagen vorgelegt",
+      "approve": "Genehmigung",
+      "reject": "Ablehnung",
+      "approveTitle": "Genehmigung der Überprüfung",
+      "approveMessage": "Bestätigen Sie die Genehmigung von {{name}} als verifizierter Organisator?",
+      "approveBio": "Bestätigen Sie, diese Überprüfung zu genehmigen",
+      "approveSuccess": "Veranstalter verifiziert",
+      "rejectTitle": "Antrag ablehnen",
+      "rejectMessage": "Geben Sie einen Grund für die Ablehnung {{name}} an. Es wird mit dem Benutzer geteilt.",
+      "rejectReasonPlaceholder": "Ablehnungsgrund ...",
+      "rejectReasonRequired": "Ein Grund ist erforderlich.",
+      "rejectSuccess": "Antrag abgelehnt",
+      "actionError": "Die Aktion scheiterte. Bitte versuchen Sie es noch einmal.",
+      "loadError": "Konnte keine Verifizierungsanforderungen laden.",
+      "emptyTitle": "Keine anhängigen Anträge",
+      "emptySubtitle": "Neue Organisator-Verifizierungsanforderungen werden hier angezeigt."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6494,6 +6629,16 @@
       "loadError": "Benutzer nicht laden können",
       "roleSection": "ROLLE",
       "actionsSection": "MASSNAHMEN",
+      "profileSection": "PROFIL",
+      "fieldFirstName": "Vorname",
+      "fieldLastName": "Nachname",
+      "fieldEmail": "E-Mail",
+      "fieldPhone": "Telefon",
+      "fieldCompany": "Unternehmen",
+      "saveProfile": "Speicherprofil",
+      "profileUpdated": "Profil aktualisiert",
+      "profileUpdateError": "Ich konnte das Profil nicht aktualisieren.",
+      "emailRequired": "E-Mail ist erforderlich.",
       "infoSection": "INFORMATIONEN",
       "active": "Aktiv",
       "inactive": "inaktiv",
@@ -6686,6 +6831,21 @@
       "title": "Prüfprotokolle",
       "target": "Ziel",
       "user": "Nutzer #{{id}}",
+      "detail": {
+        "guardTitle": "Logangabe",
+        "eyebrow": "Prüfprotokoll",
+        "title": "Logangabe",
+        "action": "Aktion",
+        "target": "Ziel",
+        "user": "Nutzer",
+        "system": "System",
+        "timestamp": "Zeitstempel",
+        "ip": "IP-Adresse",
+        "userAgent": "Gerät / Browser",
+        "changes": "Änderungen",
+        "metadata": "Einzelheiten",
+        "loadError": "Konnte dieses Protokoll nicht laden."
+      },
       "stats": {
         "total": "Insgesamt"
       },
@@ -6923,5 +7083,13 @@
     "delegateEmailPlaceholder": "E-Mail des Gastes",
     "delegateError": "Konnte die Einladung nicht senden.",
     "toCompleteBadge": "{{n}} zum Abschluss"
+  },
+  "shareCard": {
+    "eyebrow": "Ich werde da sein",
+    "button": "Share to Story",
+    "dialogTitle": "Teile meinen Platz",
+    "cta": "Buchen Sie Ihren Platz",
+    "errorTitle": "Anteil",
+    "errorMessage": "Konnte die Karte jetzt nicht generieren."
   }
 }
