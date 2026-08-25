@@ -4902,7 +4902,11 @@
     "sponsorVisit": "Визит",
     "similarEventsEyebrow": "Рекомендации",
     "similarEventsTitle": "Аналогичные события",
-    "similarEventA11y": "Смотреть  0 "
+    "similarEventA11y": "Смотреть  0 ",
+    "virtualLiveNow": "Живи сейчас",
+    "virtualLiveParticipants": "0  онлайн",
+    "virtualJoinLive": "Присоединяйтесь к Live",
+    "virtualStartsInMinutes": "Начало в s0s мин"
   },
   "componentsCommon": {
     "exportTitle": "Выберите формат",

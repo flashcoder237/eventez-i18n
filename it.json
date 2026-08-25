@@ -3269,7 +3269,7 @@
       "AGOSTO",
       "SEP",
       "PTOM",
-      "NOVITÀ",
+      "No.",
       "DEC"
     ],
     "unfollowConfirmTitle": "Un seguito",
@@ -4902,7 +4902,11 @@
     "sponsorVisit": "Visita",
     "similarEventsEyebrow": "RACCOMANDAZIONI",
     "similarEventsTitle": "Eventi simili",
-    "similarEventA11y": "Vedi {{title}}"
+    "similarEventA11y": "Vedi {{title}}",
+    "virtualLiveNow": "Vivere ora",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Unisciti al vivo",
+    "virtualStartsInMinutes": "Inizia in {{count}} min"
   },
   "componentsCommon": {
     "exportTitle": "Scegli il formato",

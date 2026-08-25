@@ -4902,7 +4902,11 @@
     "sponsorVisit": "アクセス",
     "similarEventsEyebrow": "おすすめ商品",
     "similarEventsTitle": "同様のイベント",
-    "similarEventA11y": "展望00"
+    "similarEventA11y": "展望00",
+    "virtualLiveNow": "今すぐライブ",
+    "virtualLiveParticipants": "2019年11月12日",
+    "virtualJoinLive": "ライブに参加する",
+    "virtualStartsInMinutes": "開演0 min min"
   },
   "componentsCommon": {
     "exportTitle": "フォーマットを選択する",

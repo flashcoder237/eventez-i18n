@@ -4902,7 +4902,11 @@
     "sponsorVisit": "زيارة",
     "similarEventsEyebrow": "التوصيات",
     "similarEventsTitle": "أحداث مماثلة",
-    "similarEventA11y": "View 0"
+    "similarEventA11y": "View 0",
+    "virtualLiveNow": "عيشي الآن",
+    "virtualLiveParticipants": "على الإنترنت",
+    "virtualJoinLive": "الانضمام إلى الحياة",
+    "virtualStartsInMinutes": "تبدأ في 0 min"
   },
   "componentsCommon": {
     "exportTitle": "استمارة الاختيار",

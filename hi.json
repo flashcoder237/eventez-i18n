@@ -4902,7 +4902,11 @@
     "sponsorVisit": "यात्रा",
     "similarEventsEyebrow": "सिफारिश",
     "similarEventsTitle": "इसी तरह की घटनाओं",
-    "similarEventA11y": "To make a good way."
+    "similarEventA11y": "To make a good way.",
+    "virtualLiveNow": "अब लाइव",
+    "virtualLiveParticipants": "To make an online.",
+    "virtualJoinLive": "जीना",
+    "virtualStartsInMinutes": "To start in the same time."
   },
   "componentsCommon": {
     "exportTitle": "प्रारूप चुनें",

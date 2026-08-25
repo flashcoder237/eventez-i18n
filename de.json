@@ -3263,7 +3263,7 @@
       "FEB",
       "MAR",
       "APR",
-      "KÖNNEN",
+      "MAY",
       "JUND",
       "JUL",
       "AUG",
@@ -4902,7 +4902,11 @@
     "sponsorVisit": "Besuch",
     "similarEventsEyebrow": "EMPfehlungen",
     "similarEventsTitle": "Ähnliche Ereignisse",
-    "similarEventA11y": "Ansicht {{title}}"
+    "similarEventA11y": "Ansicht {{title}}",
+    "virtualLiveNow": "Jetzt live",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Join live",
+    "virtualStartsInMinutes": "Beginnt in {{count}} min"
   },
   "componentsCommon": {
     "exportTitle": "Format wählen",

@@ -4902,7 +4902,11 @@
     "sponsorVisit": "Visita",
     "similarEventsEyebrow": "RECOMENDACIONES",
     "similarEventsTitle": "Eventos similares",
-    "similarEventA11y": "Ver 0"
+    "similarEventA11y": "Ver 0",
+    "virtualLiveNow": "Vivir ahora",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Únete a vivir",
+    "virtualStartsInMinutes": "Empieza en 0 min min"
   },
   "componentsCommon": {
     "exportTitle": "El formato",
