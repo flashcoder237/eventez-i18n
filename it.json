@@ -3277,7 +3277,7 @@
       "AGOSTO",
       "SEP",
       "PTOM",
-      "NOVITÀ",
+      "No.",
       "DEC"
     ],
     "unfollowConfirmTitle": "Un seguito",
@@ -4223,7 +4223,9 @@
       "previous": "Precedente",
       "next": "Il prossimo",
       "selectDatePlaceholder": "Seleziona una data",
-      "selectTimePlaceholder": "Seleziona una volta"
+      "selectTimePlaceholder": "Seleziona una volta",
+      "selectPlaceholder": "Seleziona...",
+      "searchPlaceholder": "Cerca..."
     }
   },
   "ticketPurchase": {

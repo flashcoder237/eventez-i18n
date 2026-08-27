@@ -3271,7 +3271,7 @@
       "FEB",
       "MAR",
       "APR",
-      "KÖNNEN",
+      "MAY",
       "JUND",
       "JUL",
       "AUG",
@@ -4223,7 +4223,9 @@
       "previous": "Früher",
       "next": "Nächster Artikel",
       "selectDatePlaceholder": "Wählen Sie ein Datum",
-      "selectTimePlaceholder": "Wählen Sie eine Zeit"
+      "selectTimePlaceholder": "Wählen Sie eine Zeit",
+      "selectPlaceholder": "Auswählen...",
+      "searchPlaceholder": "Suche ..."
     }
   },
   "ticketPurchase": {

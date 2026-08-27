@@ -4223,7 +4223,9 @@
       "previous": "新着情報",
       "next": "次へ",
       "selectDatePlaceholder": "日付を選択",
-      "selectTimePlaceholder": "時間を選択"
+      "selectTimePlaceholder": "時間を選択",
+      "selectPlaceholder": "お問い合わせ",
+      "searchPlaceholder": "お問い合わせ"
     }
   },
   "ticketPurchase": {

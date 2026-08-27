@@ -4223,7 +4223,9 @@
       "previous": "سابقا",
       "next": "التالي",
       "selectDatePlaceholder": "اختيار تاريخ",
-      "selectTimePlaceholder": "اختيار الوقت"
+      "selectTimePlaceholder": "اختيار الوقت",
+      "selectPlaceholder": "اختيار...",
+      "searchPlaceholder": "ابحث"
     }
   },
   "ticketPurchase": {

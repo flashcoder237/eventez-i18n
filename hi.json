@@ -4223,7 +4223,9 @@
       "previous": "पिछला",
       "next": "अगला",
       "selectDatePlaceholder": "तारीख चुनें",
-      "selectTimePlaceholder": "एक समय चुनें"
+      "selectTimePlaceholder": "एक समय चुनें",
+      "selectPlaceholder": "चुनें...",
+      "searchPlaceholder": "खोज..."
     }
   },
   "ticketPurchase": {

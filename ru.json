@@ -4223,7 +4223,9 @@
       "previous": "Предыдущий",
       "next": "Следующий",
       "selectDatePlaceholder": "Выберите дату",
-      "selectTimePlaceholder": "Выберите время"
+      "selectTimePlaceholder": "Выберите время",
+      "selectPlaceholder": "Выберите...",
+      "searchPlaceholder": "Поиск..."
     }
   },
   "ticketPurchase": {

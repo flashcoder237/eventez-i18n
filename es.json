@@ -4223,7 +4223,9 @@
       "previous": "Anterior",
       "next": "Siguiente",
       "selectDatePlaceholder": "Seleccione una fecha",
-      "selectTimePlaceholder": "Seleccione un tiempo"
+      "selectTimePlaceholder": "Seleccione un tiempo",
+      "selectPlaceholder": "Seleccione...",
+      "searchPlaceholder": "Buscar..."
     }
   },
   "ticketPurchase": {
