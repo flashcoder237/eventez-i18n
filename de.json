@@ -503,6 +503,7 @@
     "viewAction": "Ansicht",
     "viewEvent": "Ereignis ansehen",
     "share": "Anteil",
+    "scrollToTop": "Zurück nach oben",
     "freeEyebrow": "NULLKOSTEN",
     "freeTitle": "Frei, keine Strings",
     "freeBadge": "FREI",
@@ -1243,7 +1244,14 @@
     "myPaymentsFallbackTitle": "Zahlung",
     "myPaymentsFilterCompleted": "Abgeschlossen",
     "myPaymentsFilterPending": "Ausstehend",
-    "myPaymentsFilterFailed": "Fehlgeschlagen"
+    "myPaymentsFilterFailed": "Fehlgeschlagen",
+    "finalizeEndedTitle": "Diese Veranstaltung ist beendet",
+    "finalizeEndedBody": "Sie können Ihre Registrierung nicht mehr abschließen: Die Veranstaltung ist bereits vorbei. Sie wurden nicht angeklagt.",
+    "finalizeClosedTitle": "Registrierung geschlossen",
+    "finalizeClosedBody": "Der Anmeldezeitraum für diese Veranstaltung ist abgelaufen.",
+    "finalizeSoldOutTitle": "Tickets ausverkauft",
+    "finalizeSoldOutBody": "Die Tickets, die Sie reserviert haben, sind nicht mehr verfügbar. Ihre Reservierung ist abgelaufen. Sie wurden nicht angeklagt.",
+    "finalizeBackToEvent": "Zurück zur Veranstaltung"
   },
   "memories": {
     "title": "Meine Erinnerungen",
@@ -3263,7 +3271,7 @@
       "FEB",
       "MAR",
       "APR",
-      "MAY",
+      "KÖNNEN",
       "JUND",
       "JUL",
       "AUG",

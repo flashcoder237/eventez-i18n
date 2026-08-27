@@ -503,6 +503,7 @@
     "viewAction": "देखें",
     "viewEvent": "घटना देखें",
     "share": "शेयर",
+    "scrollToTop": "पीछे",
     "freeEyebrow": "शून्य लागत",
     "freeTitle": "मुफ्त, कोई स्ट्रिंग नहीं",
     "freeBadge": "मुफ्त",
@@ -1243,7 +1244,14 @@
     "myPaymentsFallbackTitle": "भुगतान",
     "myPaymentsFilterCompleted": "पूरा",
     "myPaymentsFilterPending": "लंबित",
-    "myPaymentsFilterFailed": "विफल"
+    "myPaymentsFilterFailed": "विफल",
+    "finalizeEndedTitle": "यह घटना समाप्त हो गई है",
+    "finalizeEndedBody": "अब आप अपना पंजीकरण पूरा नहीं कर सकते: यह घटना पहले से ही समाप्त हो चुकी है। आप आरोपित नहीं थे।",
+    "finalizeClosedTitle": "पंजीकरण बंद",
+    "finalizeClosedBody": "इस घटना के लिए पंजीकरण अवधि समाप्त हो गई है।",
+    "finalizeSoldOutTitle": "टिकट बेच दिया",
+    "finalizeSoldOutBody": "आपके द्वारा आरक्षित टिकट अब उपलब्ध नहीं हैं। आपका आरक्षण समाप्त हो गया। आप आरोपित नहीं थे।",
+    "finalizeBackToEvent": "घटना वापस"
   },
   "memories": {
     "title": "मेरी याद",

@@ -503,6 +503,7 @@
     "viewAction": "Vista",
     "viewEvent": "Visualizza evento",
     "share": "Condividi",
+    "scrollToTop": "Torna all'inizio",
     "freeEyebrow": "ZERO COST",
     "freeTitle": "Libero, senza corde",
     "freeBadge": "GRATIS",
@@ -1243,7 +1244,14 @@
     "myPaymentsFallbackTitle": "Pagamento",
     "myPaymentsFilterCompleted": "Completato",
     "myPaymentsFilterPending": "Finanziamenti",
-    "myPaymentsFilterFailed": "Sfigato"
+    "myPaymentsFilterFailed": "Sfigato",
+    "finalizeEndedTitle": "Questo evento è terminato",
+    "finalizeEndedBody": "Non è più possibile completare la registrazione: l'evento è già finito. Non sei stato accusato.",
+    "finalizeClosedTitle": "Registrazione chiusa",
+    "finalizeClosedBody": "Il periodo di registrazione per questo evento è terminato.",
+    "finalizeSoldOutTitle": "Biglietti esauriti",
+    "finalizeSoldOutBody": "I biglietti che avevi prenotato non sono più disponibili. La tua prenotazione è scaduta. Non sei stato accusato.",
+    "finalizeBackToEvent": "Torna all'evento"
   },
   "memories": {
     "title": "I miei ricordi",
@@ -3269,7 +3277,7 @@
       "AGOSTO",
       "SEP",
       "PTOM",
-      "No.",
+      "NOVITÀ",
       "DEC"
     ],
     "unfollowConfirmTitle": "Un seguito",

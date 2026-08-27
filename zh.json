@@ -503,6 +503,7 @@
     "viewAction": "视图",
     "viewEvent": "查看事件",
     "share": "份额",
+    "scrollToTop": "回到顶端",
     "freeEyebrow": "零费用",
     "freeTitle": "自由,没有字符串",
     "freeBadge": "自由主义",
@@ -1243,7 +1244,14 @@
     "myPaymentsFallbackTitle": "付款",
     "myPaymentsFilterCompleted": "已完成",
     "myPaymentsFilterPending": "待决",
-    "myPaymentsFilterFailed": "失败"
+    "myPaymentsFilterFailed": "失败",
+    "finalizeEndedTitle": "这个事件已经结束了",
+    "finalizeEndedBody": "您无法完成注册: 事件已经结束 。 你没有被起诉。",
+    "finalizeClosedTitle": "登记结束",
+    "finalizeClosedBody": "这一活动的登记期已告结束。",
+    "finalizeSoldOutTitle": "售出车票",
+    "finalizeSoldOutBody": "你预留的门票已经没有了 你的订位到期了 你没有被起诉。",
+    "finalizeBackToEvent": "返回活动"
   },
   "memories": {
     "title": "我的记忆",
@@ -3259,17 +3267,17 @@
     "jMinus": "D -  - ",
     "todayAcronym": "今天",
     "monthsShort": [
-      "扬",
-      "FEB (法语)",
-      "马里",
-      "APR 保护",
-      "5月 (简体中文)",
       "简",
+      "FEB 联邦经济委员会",
+      "马尔",
+      "APR 保护程序",
+      "5月(简体中文)",
+      "琼",
       "朱尔",
       "奥古斯特",
       "9月9日,纽约",
-      "OCT 组织",
-      "NOV (英语).",
+      "OCT (美国)",
+      "NOV 诺瓦",
       "DEC 数据交换中心"
     ],
     "unfollowConfirmTitle": "未跟踪",
@@ -5395,7 +5403,7 @@
       "saved": "已保存计划",
       "saveError": "保存失败 。",
       "save": "保存",
-      "unsaved": "                                                                                                                                                                                                       ",
+      "unsaved": "                                                                                                                                                                                                                                                                                                           ",
       "upToDate": "最新数据"
     },
     "seatingPlans": {

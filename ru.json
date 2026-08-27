@@ -503,6 +503,7 @@
     "viewAction": "Посмотреть",
     "viewEvent": "Посмотреть событие",
     "share": "Поделиться",
+    "scrollToTop": "Назад к вершине",
     "freeEyebrow": "нулевая стоимость",
     "freeTitle": "Бесплатно, без струн",
     "freeBadge": "бесплатно",
@@ -1243,7 +1244,14 @@
     "myPaymentsFallbackTitle": "платеж",
     "myPaymentsFilterCompleted": "завершенный",
     "myPaymentsFilterPending": "В ожидании",
-    "myPaymentsFilterFailed": "неудачник"
+    "myPaymentsFilterFailed": "неудачник",
+    "finalizeEndedTitle": "Это событие закончилось",
+    "finalizeEndedBody": "Вы больше не можете завершить регистрацию: мероприятие уже закончилось. Вам не предъявили обвинения.",
+    "finalizeClosedTitle": "Регистрация закрыта",
+    "finalizeClosedBody": "Срок регистрации на это мероприятие закончился.",
+    "finalizeSoldOutTitle": "Билеты распроданы",
+    "finalizeSoldOutBody": "Билеты, которые вы забронировали, больше не доступны. Ваш заказ истек. Вам не предъявили обвинения.",
+    "finalizeBackToEvent": "Вернуться к Событию"
   },
   "memories": {
     "title": "Мои воспоминания",

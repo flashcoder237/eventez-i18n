@@ -503,6 +503,7 @@
     "viewAction": "Ver",
     "viewEvent": "Ver evento",
     "share": "Partilha",
+    "scrollToTop": "Voltar ao topo",
     "freeEyebrow": "ZERO CUSTO",
     "freeTitle": "Livre, sem cordas",
     "freeBadge": "LIVRE",
@@ -1243,7 +1244,14 @@
     "myPaymentsFallbackTitle": "Pagamento",
     "myPaymentsFilterCompleted": "Concluído",
     "myPaymentsFilterPending": "Pendente",
-    "myPaymentsFilterFailed": "Falha"
+    "myPaymentsFilterFailed": "Falha",
+    "finalizeEndedTitle": "Este evento terminou",
+    "finalizeEndedBody": "Você não pode mais completar seu registro: o evento já terminou. Não foste acusado.",
+    "finalizeClosedTitle": "Registo encerrado",
+    "finalizeClosedBody": "O período de inscrição para este evento terminou.",
+    "finalizeSoldOutTitle": "Bilhetes esgotados",
+    "finalizeSoldOutBody": "Os bilhetes que tinha reservado já não estão disponíveis. A sua reserva expirou. Não foste acusado.",
+    "finalizeBackToEvent": "Voltar ao evento"
   },
   "memories": {
     "title": "As minhas memórias",

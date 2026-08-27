@@ -503,6 +503,7 @@
     "viewAction": "View",
     "viewEvent": "حدث فيديو",
     "share": "Share",
+    "scrollToTop": "العودة إلى القمة",
     "freeEyebrow": "ZERO COST",
     "freeTitle": "حرّ، بدون قيود",
     "freeBadge": "FREE",
@@ -1243,7 +1244,14 @@
     "myPaymentsFallbackTitle": "المدفوعات",
     "myPaymentsFilterCompleted": "مكتملة",
     "myPaymentsFilterPending": "معلقة",
-    "myPaymentsFilterFailed": "فشل"
+    "myPaymentsFilterFailed": "فشل",
+    "finalizeEndedTitle": "هذا الحدث انتهى",
+    "finalizeEndedBody": "لم يعد بإمكانك إكمال تسجيلك لقد انتهى الحدث بالفعل لم يتم اتهامك",
+    "finalizeClosedTitle": "التسجيل مغلق",
+    "finalizeClosedBody": "وقد انتهت فترة تسجيل هذا الحدث.",
+    "finalizeSoldOutTitle": "بطاقات بيعت",
+    "finalizeSoldOutBody": "التذاكر التي حجزتها لم تعد متاحة حجزك انتهى لم يتم اتهامك",
+    "finalizeBackToEvent": "العودة إلى الحدث"
   },
   "memories": {
     "title": "ذكرياتي",

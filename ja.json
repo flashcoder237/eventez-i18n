@@ -503,6 +503,7 @@
     "viewAction": "ニュース",
     "viewEvent": "イベントを見る",
     "share": "シェア",
+    "scrollToTop": "トップへ戻る",
     "freeEyebrow": "ゼロコスト",
     "freeTitle": "無料、文字列なし",
     "freeBadge": "無料",
@@ -1243,7 +1244,14 @@
     "myPaymentsFallbackTitle": "お支払い",
     "myPaymentsFilterCompleted": "完了しました",
     "myPaymentsFilterPending": "ペンディング",
-    "myPaymentsFilterFailed": "失敗した"
+    "myPaymentsFilterFailed": "失敗した",
+    "finalizeEndedTitle": "終了いたしました。",
+    "finalizeEndedBody": "登録完了後も完了できません。 お問い合わせ",
+    "finalizeClosedTitle": "受付終了",
+    "finalizeClosedBody": "本イベントの参加登録期間は終了いたしました。",
+    "finalizeSoldOutTitle": "チケット販売",
+    "finalizeSoldOutBody": "予約したチケットはご利用いただけません。 予約期限が切れました。 お問い合わせ",
+    "finalizeBackToEvent": "イベントに戻る"
   },
   "memories": {
     "title": "私の思い出",
