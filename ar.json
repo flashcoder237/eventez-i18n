@@ -956,7 +956,10 @@
     "monthNovember": "تشرين الثاني/نوفمبر",
     "monthDecember": "كانون الأول/ديسمبر",
     "tapToShowQR": "Tap to view QR code",
-    "searchTitleRefVenue": "العنوان، الحكم، المكان..."
+    "searchTitleRefVenue": "العنوان، الحكم، المكان...",
+    "pendingPayment": "المدفوعات المستحقة الدفع",
+    "pendingExpired": "انتهى الحدث",
+    "statusExpired": "Expired"
   },
   "payment": {
     "title": "المدفوعات",
@@ -7120,5 +7123,11 @@
     "cta": "احجز مكانك",
     "errorTitle": "Share",
     "errorMessage": "لا يمكن توليد البطاقة الآن."
+  },
+  "badges": {
+    "verified": "مصدق عليه",
+    "pioneer": "Pioneer",
+    "verifiedHint": "هوية منظم تحقق منها إيفينت إيز",
+    "pioneerHint": "عضو مؤسس: حدث اختباري قبل الإطلاق"
   }
 }

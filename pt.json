@@ -956,7 +956,10 @@
     "monthNovember": "NOVEMBRO",
     "monthDecember": "DEZEMBRO",
     "tapToShowQR": "Toque em para ver o código QR",
-    "searchTitleRefVenue": "Título, árbitro, local..."
+    "searchTitleRefVenue": "Título, árbitro, local...",
+    "pendingPayment": "Pagamento pendente",
+    "pendingExpired": "Evento terminado",
+    "statusExpired": "Expirado"
   },
   "payment": {
     "title": "Pagamento",
@@ -7120,5 +7123,11 @@
     "cta": "Reserve seu lugar →",
     "errorTitle": "Partilha",
     "errorMessage": "Não foi possível gerar o cartão agora."
+  },
+  "badges": {
+    "verified": "Verificado",
+    "pioneer": "Pioneiro",
+    "verifiedHint": "Identidade do organizador verificada pelo EventEz",
+    "pioneerHint": "Membro fundador: EventEz testado antes do lançamento"
   }
 }

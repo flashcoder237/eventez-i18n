@@ -956,7 +956,10 @@
     "monthNovember": "NOVEMBER",
     "monthDecember": "डिसेम्बर",
     "tapToShowQR": "QR कोड देखने के लिए टैप करें",
-    "searchTitleRefVenue": "शीर्षक, रेफरी, स्थल ..."
+    "searchTitleRefVenue": "शीर्षक, रेफरी, स्थल ...",
+    "pendingPayment": "भुगतान लंबित",
+    "pendingExpired": "घटना समाप्त",
+    "statusExpired": "शीघ्र"
   },
   "payment": {
     "title": "भुगतान",
@@ -7120,5 +7123,11 @@
     "cta": "अपना स्थान बुक करें →",
     "errorTitle": "शेयर",
     "errorMessage": "अभी तक कार्ड उत्पन्न नहीं कर सका।"
+  },
+  "badges": {
+    "verified": "सत्यापित",
+    "pioneer": "पायनियर",
+    "verifiedHint": "इवेंट ईज़ द्वारा सत्यापित ऑर्गनाइज़र पहचान",
+    "pioneerHint": "संस्थापक सदस्य: प्रक्षेपण से पहले घटना का परीक्षण किया"
   }
 }

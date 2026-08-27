@@ -956,7 +956,10 @@
     "monthNovember": "11月 (中文(简体) ).",
     "monthDecember": "12月 (中文(简体) ).",
     "tapToShowQR": "磁带查看 QR 代码",
-    "searchTitleRefVenue": "标题,裁判,地点..."
+    "searchTitleRefVenue": "标题,裁判,地点...",
+    "pendingPayment": "待付款项",
+    "pendingExpired": "活动结束",
+    "statusExpired": "过期"
   },
   "payment": {
     "title": "付款",
@@ -3267,17 +3270,17 @@
     "jMinus": "D -  - ",
     "todayAcronym": "今天",
     "monthsShort": [
-      "扬",
-      "FEB (法语)",
-      "马里",
-      "APR 保护",
-      "5月 (简体中文)",
       "简",
+      "FEB 联邦经济委员会",
+      "马尔",
+      "APR 保护程序",
+      "5月(简体中文)",
+      "琼",
       "朱尔",
       "奥古斯特",
       "9月9日,纽约",
-      "OCT 组织",
-      "NOV (英语).",
+      "OCT (美国)",
+      "NOV 诺瓦",
       "DEC 数据交换中心"
     ],
     "unfollowConfirmTitle": "未跟踪",
@@ -5405,7 +5408,7 @@
       "saved": "已保存计划",
       "saveError": "保存失败 。",
       "save": "保存",
-      "unsaved": "                                                                                                                                                                                                       ",
+      "unsaved": "                                                                                                                                                                                                                                                                                                           ",
       "upToDate": "最新数据"
     },
     "seatingPlans": {
@@ -7120,5 +7123,11 @@
     "cta": "订个位子吧",
     "errorTitle": "份额",
     "errorMessage": "现在无法生成卡片 。"
+  },
+  "badges": {
+    "verified": "已验证",
+    "pioneer": "先锋",
+    "verifiedHint": "组织者身份由事件Ez验证",
+    "pioneerHint": "创始成员:发射前经过测试的活动Ez"
   }
 }

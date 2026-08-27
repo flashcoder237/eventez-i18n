@@ -956,7 +956,10 @@
     "monthNovember": "Ноябрь",
     "monthDecember": "Декабрь",
     "tapToShowQR": "Нажмите, чтобы просмотреть QR-код",
-    "searchTitleRefVenue": "Название, реферат, место проведения..."
+    "searchTitleRefVenue": "Название, реферат, место проведения...",
+    "pendingPayment": "Оплата в ожидании",
+    "pendingExpired": "Мероприятие закончилось",
+    "statusExpired": "истекший"
   },
   "payment": {
     "title": "платеж",
@@ -7120,5 +7123,11 @@
     "cta": "Забронируйте свое место",
     "errorTitle": "Поделиться",
     "errorMessage": "Не удалось создать карту прямо сейчас."
+  },
+  "badges": {
+    "verified": "проверенный",
+    "pioneer": "пионер",
+    "verifiedHint": "Идентификация организатора подтверждена EventEz",
+    "pioneerHint": "Участник-основатель: тестировал EventEz перед запуском"
   }
 }

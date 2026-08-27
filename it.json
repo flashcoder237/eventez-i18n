@@ -956,7 +956,10 @@
     "monthNovember": "NOVEMBRE",
     "monthDecember": "DICEMBRE",
     "tapToShowQR": "Tocca per visualizzare il codice QR",
-    "searchTitleRefVenue": "Titolo, ref, sede..."
+    "searchTitleRefVenue": "Titolo, ref, sede...",
+    "pendingPayment": "Pagamento in sospeso",
+    "pendingExpired": "Evento concluso",
+    "statusExpired": "Scadenza"
   },
   "payment": {
     "title": "Pagamento",
@@ -3277,7 +3280,7 @@
       "AGOSTO",
       "SEP",
       "PTOM",
-      "No.",
+      "NOVITÀ",
       "DEC"
     ],
     "unfollowConfirmTitle": "Un seguito",
@@ -7120,5 +7123,11 @@
     "cta": "Prenota il tuo posto →",
     "errorTitle": "Condividi",
     "errorMessage": "Non poteva generare la carta in questo momento."
+  },
+  "badges": {
+    "verified": "Verificato",
+    "pioneer": "Pioneer",
+    "verifiedHint": "Identità dell'organizzatore verificata da EventEz",
+    "pioneerHint": "Membro fondatore: testato EventEz prima del lancio"
   }
 }

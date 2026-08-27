@@ -956,7 +956,10 @@
     "monthNovember": "免責事項",
     "monthDecember": "カレンダー",
     "tapToShowQR": "QRコードを見る",
-    "searchTitleRefVenue": "タイトル、 ref、会場..."
+    "searchTitleRefVenue": "タイトル、 ref、会場...",
+    "pendingPayment": "支払期限",
+    "pendingExpired": "イベント終了",
+    "statusExpired": "有効期限"
   },
   "payment": {
     "title": "お支払い",
@@ -7120,5 +7123,11 @@
     "cta": "スポットを予約 →",
     "errorTitle": "シェア",
     "errorMessage": "今すぐカードを生成できません。"
+  },
+  "badges": {
+    "verified": "プロフィール",
+    "pioneer": "パイオニア",
+    "verifiedHint": "EventEzで検証された組織のアイデンティティ",
+    "pioneerHint": "創設メンバー: 起動前にEventEzをテスト"
   }
 }

@@ -956,7 +956,10 @@
     "monthNovember": "NOVEMBER",
     "monthDecember": "DEZEMBER",
     "tapToShowQR": "Tippen Sie auf den QR-Code",
-    "searchTitleRefVenue": "Titel, Ref, Veranstaltungsort..."
+    "searchTitleRefVenue": "Titel, Ref, Veranstaltungsort...",
+    "pendingPayment": "Ausstehende Zahlung",
+    "pendingExpired": "Ende der Veranstaltung",
+    "statusExpired": "Abgelaufen"
   },
   "payment": {
     "title": "Zahlung",
@@ -3271,7 +3274,7 @@
       "FEB",
       "MAR",
       "APR",
-      "MAY",
+      "KÖNNEN",
       "JUND",
       "JUL",
       "AUG",
@@ -7120,5 +7123,11 @@
     "cta": "Buchen Sie Ihren Platz",
     "errorTitle": "Anteil",
     "errorMessage": "Konnte die Karte jetzt nicht generieren."
+  },
+  "badges": {
+    "verified": "Geprüft",
+    "pioneer": "Pionier",
+    "verifiedHint": "Organisatoridentität verifiziert durch EventEz",
+    "pioneerHint": "Gründungsmitglied: EventEz vor dem Start getestet"
   }
 }
