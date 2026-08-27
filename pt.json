@@ -640,6 +640,7 @@
     "onlineEvent": "Evento online",
     "meetingId": "ID da reunião:",
     "meetingPasscode": "Código de senha:",
+    "liveEngagement": "Perguntas e respostas ao vivo",
     "joinEvent": "Juntar evento",
     "joinOnline": "Entrar online",
     "registered": "Registado",
@@ -701,7 +702,9 @@
     "loginRequiredTitle": "É necessário iniciar sessão",
     "loginRequiredReview": "Iniciar sessão para deixar um comentário",
     "reviewSubmitError": "Não foi possível enviar a sua avaliação",
-    "loginRequiredWaitlist": "Entre para se juntar à lista de espera"
+    "loginRequiredWaitlist": "Entre para se juntar à lista de espera",
+    "invitationGateDesc": "Este evento é reservado para convidados. Se recebeu um convite, aceite-o para obter acesso.",
+    "codeGateDesc": "Digite o código para ver os detalhes completos"
   },
   "events": {
     "videoBadge": "Vídeo",
@@ -3342,7 +3345,8 @@
     "generateCta": "Gerar o meu código",
     "generating": "Gerando...",
     "generateSuccess": "Código de referência criado!",
-    "generateError": "Não foi possível gerar o código. Por favor, tente novamente."
+    "generateError": "Não foi possível gerar o código. Por favor, tente novamente.",
+    "copySuccess": "Ligação de referência copiada"
   },
   "teamManagement": {
     "eyebrow": "Equipe",

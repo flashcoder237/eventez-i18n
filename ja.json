@@ -640,6 +640,7 @@
     "onlineEvent": "オンラインイベント",
     "meetingId": "会議ID:",
     "meetingPasscode": "パスコード:",
+    "liveEngagement": "ライブQ&Aと投票",
     "joinEvent": "イベントに参加する",
     "joinOnline": "オンラインで参加",
     "registered": "登録済み",
@@ -701,7 +702,9 @@
     "loginRequiredTitle": "サインイン必須",
     "loginRequiredReview": "レビューを残すためにサインイン",
     "reviewSubmitError": "あなたのレビューを提出することはできません",
-    "loginRequiredWaitlist": "ウェイトリストに参加するためにサインイン"
+    "loginRequiredWaitlist": "ウェイトリストに参加するためにサインイン",
+    "invitationGateDesc": "招待された方には、このイベントをご予約ください。 招待状を受け取った方は、必ずご連絡下さい。",
+    "codeGateDesc": "完全な詳細を見るためにコードを入力してください"
   },
   "events": {
     "videoBadge": "ビデオ",
@@ -3342,7 +3345,8 @@
     "generateCta": "コードを生成する",
     "generating": "生成...",
     "generateSuccess": "紹介コードを作成しました!",
-    "generateError": "コードを生成できません。 お問い合わせ"
+    "generateError": "コードを生成できません。 お問い合わせ",
+    "copySuccess": "紹介リンク コピー"
   },
   "teamManagement": {
     "eyebrow": "スタッフ",

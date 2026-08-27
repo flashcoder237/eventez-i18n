@@ -640,6 +640,7 @@
     "onlineEvent": "Evento online",
     "meetingId": "ID riunione:",
     "meetingPasscode": "Codice di passaggio:",
+    "liveEngagement": "Live Q&A e sondaggi",
     "joinEvent": "Iscriviti evento",
     "joinOnline": "Iscriviti online",
     "registered": "Registrato",
@@ -701,7 +702,9 @@
     "loginRequiredTitle": "Registrazione necessaria",
     "loginRequiredReview": "Accedi per lasciare una recensione",
     "reviewSubmitError": "Non potrebbe presentare la tua recensione",
-    "loginRequiredWaitlist": "Iscriviti alla lista dei desideri"
+    "loginRequiredWaitlist": "Iscriviti alla lista dei desideri",
+    "invitationGateDesc": "Questo evento è riservato agli ospiti invitati. Se avete ricevuto un invito, si prega di accettare per ottenere l'accesso.",
+    "codeGateDesc": "Inserisci il codice per visualizzare i dettagli completi"
   },
   "events": {
     "videoBadge": "Video",
@@ -3280,7 +3283,7 @@
       "AGOSTO",
       "SEP",
       "PTOM",
-      "NOVITÀ",
+      "No.",
       "DEC"
     ],
     "unfollowConfirmTitle": "Un seguito",
@@ -3342,7 +3345,8 @@
     "generateCta": "Genera il mio codice",
     "generating": "Generando...",
     "generateSuccess": "Codice di riferimento creato!",
-    "generateError": "Non potrei generare il codice. Per favore riprovate."
+    "generateError": "Non potrei generare il codice. Per favore riprovate.",
+    "copySuccess": "Referral link copiato"
   },
   "teamManagement": {
     "eyebrow": "TEAM",

@@ -640,6 +640,7 @@
     "onlineEvent": "ऑनलाइन कार्यक्रम",
     "meetingId": "बैठक ID:",
     "meetingPasscode": "पासकोड:",
+    "liveEngagement": "लाइव क्यू एंड ए और मतदान",
     "joinEvent": "घटना में शामिल हों",
     "joinOnline": "ऑनलाइन शामिल हों",
     "registered": "पंजीकृत",
@@ -701,7 +702,9 @@
     "loginRequiredTitle": "साइन इन करें",
     "loginRequiredReview": "एक समीक्षा छोड़ने के लिए साइन इन करें",
     "reviewSubmitError": "अपनी समीक्षा प्रस्तुत नहीं कर सका",
-    "loginRequiredWaitlist": "प्रतीक्षा सूची में शामिल होने के लिए साइन इन करें"
+    "loginRequiredWaitlist": "प्रतीक्षा सूची में शामिल होने के लिए साइन इन करें",
+    "invitationGateDesc": "यह घटना आमंत्रित मेहमानों के लिए आरक्षित है। यदि आप निमंत्रण प्राप्त करते हैं, तो कृपया इसे एक्सेस प्राप्त करने के लिए स्वीकार करें।",
+    "codeGateDesc": "पूरी जानकारी देखने के लिए कोड दर्ज करें"
   },
   "events": {
     "videoBadge": "वीडियो",
@@ -3342,7 +3345,8 @@
     "generateCta": "मेरा कोड उत्पन्न करें",
     "generating": "जनरेटिंग ...",
     "generateSuccess": "रेफ़रल कोड बनाया!",
-    "generateError": "कोड उत्पन्न नहीं कर सका। फिर से प्रयास करें।"
+    "generateError": "कोड उत्पन्न नहीं कर सका। फिर से प्रयास करें।",
+    "copySuccess": "रेफ़रल लिंक कॉपी"
   },
   "teamManagement": {
     "eyebrow": "टीम",

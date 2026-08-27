@@ -640,6 +640,7 @@
     "onlineEvent": "在线活动",
     "meetingId": "会话编号 :",
     "meetingPasscode": "密码 :",
+    "liveEngagement": "现场直播和民调",
     "joinEvent": "联合活动",
     "joinOnline": "在线加入",
     "registered": "已登记",
@@ -701,7 +702,9 @@
     "loginRequiredTitle": "需要签名",
     "loginRequiredReview": "签名离开复议",
     "reviewSubmitError": "无法提交您的审查",
-    "loginRequiredWaitlist": "签名加入等待列表"
+    "loginRequiredWaitlist": "签名加入等待列表",
+    "invitationGateDesc": "这一活动是为受邀嘉宾保留的。 如果您收到邀请函,请接受邀请获取访问权限.",
+    "codeGateDesc": "输入显示全部细节的代码"
   },
   "events": {
     "videoBadge": "视频",
@@ -3270,17 +3273,17 @@
     "jMinus": "D -  - ",
     "todayAcronym": "今天",
     "monthsShort": [
+      "扬",
+      "FEB (法语)",
+      "马里",
+      "APR 保护",
+      "5月 (简体中文)",
       "简",
-      "FEB 联邦经济委员会",
-      "马尔",
-      "APR 保护程序",
-      "5月(简体中文)",
-      "琼",
       "朱尔",
       "奥古斯特",
       "9月9日,纽约",
-      "OCT (美国)",
-      "NOV 诺瓦",
+      "OCT 组织",
+      "NOV (英语).",
       "DEC 数据交换中心"
     ],
     "unfollowConfirmTitle": "未跟踪",
@@ -3342,7 +3345,8 @@
     "generateCta": "生成我的代码",
     "generating": "正在生成...",
     "generateSuccess": "调用代码创建 !",
-    "generateError": "无法生成代码。 请再试一次。"
+    "generateError": "无法生成代码。 请再试一次。",
+    "copySuccess": "转发链接已复制"
   },
   "teamManagement": {
     "eyebrow": "团队",
@@ -5408,7 +5412,7 @@
       "saved": "已保存计划",
       "saveError": "保存失败 。",
       "save": "保存",
-      "unsaved": "                                                                                                                                                                                                                                                                                                           ",
+      "unsaved": "                                                                                                                                                                                                                                          ",
       "upToDate": "最新数据"
     },
     "seatingPlans": {

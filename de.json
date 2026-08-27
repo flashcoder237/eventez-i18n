@@ -640,6 +640,7 @@
     "onlineEvent": "Online-Veranstaltung",
     "meetingId": "Sitzungs-ID:",
     "meetingPasscode": "Reisepasscode:",
+    "liveEngagement": "Live Q&A und Umfragen",
     "joinEvent": "Teilnahmeveranstaltung",
     "joinOnline": "Machen Sie online",
     "registered": "Registriert",
@@ -701,7 +702,9 @@
     "loginRequiredTitle": "Anmeldung erforderlich",
     "loginRequiredReview": "Melden Sie sich an, um eine Überprüfung zu hinterlassen",
     "reviewSubmitError": "Konnte Ihre Bewertung nicht einreichen",
-    "loginRequiredWaitlist": "Melden Sie sich an, um der Warteliste beizutreten"
+    "loginRequiredWaitlist": "Melden Sie sich an, um der Warteliste beizutreten",
+    "invitationGateDesc": "Diese Veranstaltung ist geladenen Gästen vorbehalten. Wenn Sie eine Einladung erhalten haben, akzeptieren Sie sie bitte, um Zugang zu erhalten.",
+    "codeGateDesc": "Geben Sie den Code ein, um die vollständigen Details zu sehen"
   },
   "events": {
     "videoBadge": "Video",
@@ -3274,7 +3277,7 @@
       "FEB",
       "MAR",
       "APR",
-      "KÖNNEN",
+      "MAY",
       "JUND",
       "JUL",
       "AUG",
@@ -3342,7 +3345,8 @@
     "generateCta": "Generieren Sie meinen Code",
     "generating": "Erzeugung...",
     "generateSuccess": "Referral Code erstellt!",
-    "generateError": "Ich konnte den Code nicht generieren. Bitte versuchen Sie es noch einmal."
+    "generateError": "Ich konnte den Code nicht generieren. Bitte versuchen Sie es noch einmal.",
+    "copySuccess": "Verweislink kopiert"
   },
   "teamManagement": {
     "eyebrow": "TEAM",

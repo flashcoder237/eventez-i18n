@@ -640,6 +640,7 @@
     "onlineEvent": "مناسبة على الإنترنت",
     "meetingId": "هوية الاجتماع:",
     "meetingPasscode": "رمز المرور:",
+    "liveEngagement": "Live QA and polls",
     "joinEvent": "مناسبة الانضمام",
     "joinOnline": "انضم إلى الإنترنت",
     "registered": "المسجلة",
@@ -701,7 +702,9 @@
     "loginRequiredTitle": "الإشارة المطلوبة",
     "loginRequiredReview": "وقّع على ترك استعراض",
     "reviewSubmitError": "لا يمكن أن تقدم استعراضك",
-    "loginRequiredWaitlist": "التوقيع على الانضمام إلى قائمة الانتظار"
+    "loginRequiredWaitlist": "التوقيع على الانضمام إلى قائمة الانتظار",
+    "invitationGateDesc": "هذا الحدث مخصص للضيوف المدعوين إذا تلقيت دعوة، يرجى قبوله للحصول على الوصول.",
+    "codeGateDesc": "أدخل الرمز لرؤية التفاصيل الكاملة"
   },
   "events": {
     "videoBadge": "Video",
@@ -3342,7 +3345,8 @@
     "generateCta": "تولد شفرتي",
     "generating": "تولد...",
     "generateSuccess": "تم وضع رمز الإحالة",
-    "generateError": "لا يمكن توليد الرمز. أرجوك حاول مرة أخرى"
+    "generateError": "لا يمكن توليد الرمز. أرجوك حاول مرة أخرى",
+    "copySuccess": "وصلة الإحالة"
   },
   "teamManagement": {
     "eyebrow": "TEAM",
