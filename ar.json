@@ -4938,7 +4938,9 @@
     "virtualLiveNow": "عيشي الآن",
     "virtualLiveParticipants": "على الإنترنت",
     "virtualJoinLive": "الانضمام إلى الحياة",
-    "virtualStartsInMinutes": "تبدأ في 0 min"
+    "virtualStartsInMinutes": "تبدأ في 0 min",
+    "virtualUnavailableTitle": "دعوة فيديو غير متاحة",
+    "virtualUnavailableNote": "لم ينشط في هذا الحدث بعد المُنظم سيشارك حلقة الالتقاء"
   },
   "componentsCommon": {
     "exportTitle": "استمارة الاختيار",

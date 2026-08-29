@@ -4938,7 +4938,9 @@
     "virtualLiveNow": "अब लाइव",
     "virtualLiveParticipants": "To make an online.",
     "virtualJoinLive": "जीना",
-    "virtualStartsInMinutes": "To start in the same time."
+    "virtualStartsInMinutes": "To start in the same time.",
+    "virtualUnavailableTitle": "वीडियो कॉल अनुपलब्ध",
+    "virtualUnavailableNote": "इवेंट ईज़ी वीडियो अभी तक इस घटना के लिए सक्रिय नहीं है। आयोजक जुड़ना लिंक साझा करेगा।"
   },
   "componentsCommon": {
     "exportTitle": "प्रारूप चुनें",

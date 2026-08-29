@@ -3280,17 +3280,17 @@
     "jMinus": "D -  - ",
     "todayAcronym": "今天",
     "monthsShort": [
-      "扬",
-      "FEB (法语)",
-      "马里",
-      "APR 保护",
-      "5月 (简体中文)",
       "简",
+      "FEB 联邦经济委员会",
+      "马尔",
+      "APR 保护程序",
+      "5月(简体中文)",
+      "琼",
       "朱尔",
       "奥古斯特",
       "9月9日,纽约",
-      "OCT 组织",
-      "NOV (英语).",
+      "OCT (美国)",
+      "NOV 诺瓦",
       "DEC 数据交换中心"
     ],
     "unfollowConfirmTitle": "未跟踪",
@@ -4938,7 +4938,9 @@
     "virtualLiveNow": "现在活着",
     "virtualLiveParticipants": "在线",
     "virtualJoinLive": "加入现场",
-    "virtualStartsInMinutes": "开始于% 0 分钟"
+    "virtualStartsInMinutes": "开始于% 0 分钟",
+    "virtualUnavailableTitle": "无法使用视频",
+    "virtualUnavailableNote": "EventEz Video尚未为此事件活动 。 组织者将共享连接链接."
   },
   "componentsCommon": {
     "exportTitle": "选择格式",
@@ -5428,7 +5430,7 @@
       "saved": "已保存计划",
       "saveError": "保存失败 。",
       "save": "保存",
-      "unsaved": "                                                                                                                                                                                                                                          ",
+      "unsaved": "                                                                                                                                                                                                                                                                                                           ",
       "upToDate": "最新数据"
     },
     "seatingPlans": {

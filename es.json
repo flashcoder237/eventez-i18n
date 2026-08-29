@@ -4938,7 +4938,9 @@
     "virtualLiveNow": "Vivir ahora",
     "virtualLiveParticipants": "{{count}} online",
     "virtualJoinLive": "Únete a vivir",
-    "virtualStartsInMinutes": "Empieza en 0 min min"
+    "virtualStartsInMinutes": "Empieza en 0 min min",
+    "virtualUnavailableTitle": "Llamada de vídeo no disponible",
+    "virtualUnavailableNote": "EventEz Video todavía no está activo para este evento. El organizador compartirá el enlace de unión."
   },
   "componentsCommon": {
     "exportTitle": "El formato",

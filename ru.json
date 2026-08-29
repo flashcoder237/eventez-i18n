@@ -4938,7 +4938,9 @@
     "virtualLiveNow": "Живи сейчас",
     "virtualLiveParticipants": "0  онлайн",
     "virtualJoinLive": "Присоединяйтесь к Live",
-    "virtualStartsInMinutes": "Начало в s0s мин"
+    "virtualStartsInMinutes": "Начало в s0s мин",
+    "virtualUnavailableTitle": "Видеозвонок недоступен",
+    "virtualUnavailableNote": "EventEz Video пока не активен для этого мероприятия. Организатор поделится ссылкой."
   },
   "componentsCommon": {
     "exportTitle": "Выберите формат",

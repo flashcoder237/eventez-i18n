@@ -3284,7 +3284,7 @@
       "FEB",
       "MAR",
       "APR",
-      "MAY",
+      "KÖNNEN",
       "JUND",
       "JUL",
       "AUG",
@@ -4938,7 +4938,9 @@
     "virtualLiveNow": "Jetzt live",
     "virtualLiveParticipants": "{{count}} online",
     "virtualJoinLive": "Join live",
-    "virtualStartsInMinutes": "Beginnt in {{count}} min"
+    "virtualStartsInMinutes": "Beginnt in {{count}} min",
+    "virtualUnavailableTitle": "Videoanruf nicht verfügbar",
+    "virtualUnavailableNote": "EventEz Video ist für diese Veranstaltung noch nicht aktiv. Der Organisator teilt den Join-Link."
   },
   "componentsCommon": {
     "exportTitle": "Format wählen",

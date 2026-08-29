@@ -4938,7 +4938,9 @@
     "virtualLiveNow": "Vivam agora.",
     "virtualLiveParticipants": "Em linha",
     "virtualJoinLive": "Junte-se ao vivo",
-    "virtualStartsInMinutes": "Inicia- se em 1 min"
+    "virtualStartsInMinutes": "Inicia- se em 1 min",
+    "virtualUnavailableTitle": "Chamada de vídeo indisponível",
+    "virtualUnavailableNote": "EventEz Video ainda não está ativo para este evento. O organizador compartilhará o link de junção."
   },
   "componentsCommon": {
     "exportTitle": "Escolher formato",

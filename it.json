@@ -3290,7 +3290,7 @@
       "AGOSTO",
       "SEP",
       "PTOM",
-      "No.",
+      "NOVITÀ",
       "DEC"
     ],
     "unfollowConfirmTitle": "Un seguito",
@@ -4938,7 +4938,9 @@
     "virtualLiveNow": "Vivere ora",
     "virtualLiveParticipants": "{{count}} online",
     "virtualJoinLive": "Unisciti al vivo",
-    "virtualStartsInMinutes": "Inizia in {{count}} min"
+    "virtualStartsInMinutes": "Inizia in {{count}} min",
+    "virtualUnavailableTitle": "Videochiamata non disponibile",
+    "virtualUnavailableNote": "EventEz Video non è ancora attivo per questo evento. L'organizzatore condividerà il link."
   },
   "componentsCommon": {
     "exportTitle": "Scegli il formato",
