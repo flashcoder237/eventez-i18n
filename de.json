@@ -4600,7 +4600,15 @@
     "removeMessage": "Möchten Sie dieses Ticket aus dem Offline-Cache entfernen?",
     "showQR": "Show QR",
     "hideQR": "Hide QR",
-    "pastBadge": "Vergangenheit"
+    "pastBadge": "Vergangenheit",
+    "download": "Downloadticket",
+    "pdfEyebrow": "TICKET",
+    "pdfReference": "Referenznummer",
+    "pdfType": "Art des Tickets",
+    "pdfQuantity": "Menge",
+    "pdfDate": "Datum",
+    "pdfShareDialog": "Speichern / Share Ticket",
+    "pdfError": "Das PDF konnte nicht generiert werden."
   },
   "pendingTransfers": {
     "headerTitle": "Übertragungen",
@@ -5014,7 +5022,8 @@
     "followPrefsNewEventsSubtitle": "Wenn dieser Veranstalter eine neue Veranstaltung veröffentlicht",
     "followPrefsSave": "Präferenzen speichern",
     "followPrefsSaveA11y": "Präferenzen speichern",
-    "inAppToastA11y": "Tippen Sie zum Öffnen."
+    "inAppToastA11y": "Tippen Sie zum Öffnen.",
+    "webviewVisioTitle": "Videoanruf"
   },
   "messageRequests": {
     "eyebrow": "ANTI-SPAM",

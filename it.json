@@ -4600,7 +4600,15 @@
     "removeMessage": "Vuoi rimuovere questo biglietto dalla cache offline?",
     "showQR": "Mostra QR",
     "hideQR": "Nascondi il QR",
-    "pastBadge": "Passato"
+    "pastBadge": "Passato",
+    "download": "Scarica il biglietto",
+    "pdfEyebrow": "TICK",
+    "pdfReference": "Riferimento",
+    "pdfType": "Tipo di biglietto",
+    "pdfQuantity": "Quantità",
+    "pdfDate": "Data",
+    "pdfShareDialog": "Salvare / condividere il biglietto",
+    "pdfError": "Non potrebbe generare il PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Transfer",
@@ -5014,7 +5022,8 @@
     "followPrefsNewEventsSubtitle": "Quando questo organizzatore pubblica un nuovo evento",
     "followPrefsSave": "Salva le preferenze",
     "followPrefsSaveA11y": "Salva le preferenze",
-    "inAppToastA11y": "{{title}}. {{body}}. Toccare per aprire."
+    "inAppToastA11y": "{{title}}. {{body}}. Toccare per aprire.",
+    "webviewVisioTitle": "Video chiamata"
   },
   "messageRequests": {
     "eyebrow": "ANTI-SPAM",

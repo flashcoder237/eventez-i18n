@@ -4600,7 +4600,15 @@
     "removeMessage": "您要从离线缓存中移除这张票吗 ?",
     "showQR": "显示 QR",
     "hideQR": "隐藏 QR",
-    "pastBadge": "过去"
+    "pastBadge": "过去",
+    "download": "下载票",
+    "pdfEyebrow": "门票",
+    "pdfReference": "参考",
+    "pdfType": "车票类型",
+    "pdfQuantity": "终止原因",
+    "pdfDate": "日期",
+    "pdfShareDialog": "保存/ 共享票",
+    "pdfError": "无法生成 PDF 。"
   },
   "pendingTransfers": {
     "headerTitle": "转账",
@@ -5014,7 +5022,8 @@
     "followPrefsNewEventsSubtitle": "当组织者发布新事件时",
     "followPrefsSave": "保存首选项",
     "followPrefsSaveA11y": "保存首选项",
-    "inAppToastA11y": "{\\fn黑体\\fs22\\bord1\\shad0\\3aHBE\\4aH00\\fscx67\\fscy66\\2cHFFFFFF\\3cH808080}请按键"
+    "inAppToastA11y": "{\\fn黑体\\fs22\\bord1\\shad0\\3aHBE\\4aH00\\fscx67\\fscy66\\2cHFFFFFF\\3cH808080}请按键",
+    "webviewVisioTitle": "视频通话"
   },
   "messageRequests": {
     "eyebrow": "安地·萨米姆",

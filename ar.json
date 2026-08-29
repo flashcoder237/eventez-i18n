@@ -4600,7 +4600,15 @@
     "removeMessage": "هل تريد أن تزيل هذه التذكرة من المخبأ؟",
     "showQR": "Show QR",
     "hideQR": "Hide QR",
-    "pastBadge": "الماضي"
+    "pastBadge": "الماضي",
+    "download": "تذكرة تحميل",
+    "pdfEyebrow": "TICKET",
+    "pdfReference": "المرجع",
+    "pdfType": "نوع التذاكر",
+    "pdfQuantity": "الكمية",
+    "pdfDate": "التاريخ",
+    "pdfShareDialog": "تذكرة الإنقاذ/النصيب",
+    "pdfError": "لا يمكن توليد PDF."
   },
   "pendingTransfers": {
     "headerTitle": "التحويلات",
@@ -5014,7 +5022,8 @@
     "followPrefsNewEventsSubtitle": "عندما ينشر هذا المنظم حدثاً جديداً",
     "followPrefsSave": "توفير الأفضليات",
     "followPrefsSaveA11y": "توفير الأفضليات",
-    "inAppToastA11y": " .. .1 ap."
+    "inAppToastA11y": " .. .1 ap.",
+    "webviewVisioTitle": "دعوة فيديو"
   },
   "messageRequests": {
     "eyebrow": "ANTI-SPAM",

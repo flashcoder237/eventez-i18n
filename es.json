@@ -4600,7 +4600,15 @@
     "removeMessage": "¿Quieres quitar este ticket del caché sin conexión?",
     "showQR": "Mostrar QR",
     "hideQR": "Ocultar QR",
-    "pastBadge": "Pasado"
+    "pastBadge": "Pasado",
+    "download": "Descargar ticket",
+    "pdfEyebrow": "TICKET",
+    "pdfReference": "Referencia",
+    "pdfType": "Tipo de entrada",
+    "pdfQuantity": "Cantidad",
+    "pdfDate": "Fecha",
+    "pdfShareDialog": "Guardar / compartir ticket",
+    "pdfError": "No podía generar el PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Transferencias",
@@ -5014,7 +5022,8 @@
     "followPrefsNewEventsSubtitle": "Cuando este organizador publica un nuevo evento",
     "followPrefsSave": "Guardar preferencias",
     "followPrefsSaveA11y": "Guardar preferencias",
-    "inAppToastA11y": "Pulsa para abrir."
+    "inAppToastA11y": "Pulsa para abrir.",
+    "webviewVisioTitle": "Llamada de vídeo"
   },
   "messageRequests": {
     "eyebrow": "ANTI-SPAM",

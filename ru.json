@@ -4600,7 +4600,15 @@
     "removeMessage": "Вы хотите удалить этот билет из кэша в автономном режиме?",
     "showQR": "Показать QR",
     "hideQR": "Скрыть QR",
-    "pastBadge": "Прошлое"
+    "pastBadge": "Прошлое",
+    "download": "Скачать билет",
+    "pdfEyebrow": "Щелчок",
+    "pdfReference": "Ссылка",
+    "pdfType": "Тип билета",
+    "pdfQuantity": "количество",
+    "pdfDate": "Дата",
+    "pdfShareDialog": "Сохранить/поделиться билетом",
+    "pdfError": "Не удалось создать PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Переводы",
@@ -5014,7 +5022,8 @@
     "followPrefsNewEventsSubtitle": "Когда организатор публикует новое мероприятие",
     "followPrefsSave": "Сохранить предпочтения",
     "followPrefsSaveA11y": "Сохранить предпочтения",
-    "inAppToastA11y": "Нажмите, чтобы открыть."
+    "inAppToastA11y": "Нажмите, чтобы открыть.",
+    "webviewVisioTitle": "Видеозвонок"
   },
   "messageRequests": {
     "eyebrow": "Анти-спам",

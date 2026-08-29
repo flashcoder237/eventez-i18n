@@ -4600,7 +4600,15 @@
     "removeMessage": "क्या आप इस टिकट को ऑफ़लाइन कैश से हटाना चाहते हैं?",
     "showQR": "QR दिखाएँ",
     "hideQR": "क्यूआर छुपाएं",
-    "pastBadge": "पिछला"
+    "pastBadge": "पिछला",
+    "download": "टिकट डाउनलोड करें",
+    "pdfEyebrow": "टिकट",
+    "pdfReference": "संदर्भ",
+    "pdfType": "टिकट प्रकार",
+    "pdfQuantity": "मात्रा",
+    "pdfDate": "तारीख",
+    "pdfShareDialog": "सेव / शेयर टिकट",
+    "pdfError": "PDF उत्पन्न नहीं कर सकता।"
   },
   "pendingTransfers": {
     "headerTitle": "स्थानांतरण",
@@ -5014,7 +5022,8 @@
     "followPrefsNewEventsSubtitle": "जब यह आयोजक एक नया कार्यक्रम प्रकाशित करता है",
     "followPrefsSave": "वरीयताओं को बचाओ",
     "followPrefsSaveA11y": "वरीयताओं को बचाओ",
-    "inAppToastA11y": "To open in a computer."
+    "inAppToastA11y": "To open in a computer.",
+    "webviewVisioTitle": "वीडियो कॉल"
   },
   "messageRequests": {
     "eyebrow": "एंटी-एसपीएएम",

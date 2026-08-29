@@ -4600,7 +4600,15 @@
     "removeMessage": "オフラインキャッシュからこのチケットを削除したいですか?",
     "showQR": "QRを表示",
     "hideQR": "QRを隠す",
-    "pastBadge": "新着情報"
+    "pastBadge": "新着情報",
+    "download": "チケットダウンロード",
+    "pdfEyebrow": "チケット",
+    "pdfReference": "参考文献",
+    "pdfType": "チケットの種類",
+    "pdfQuantity": "数量",
+    "pdfDate": "日程表",
+    "pdfShareDialog": "チケットの保存・共有",
+    "pdfError": "PDFを生成できません。"
   },
   "pendingTransfers": {
     "headerTitle": "トランスファー",
@@ -5014,7 +5022,8 @@
     "followPrefsNewEventsSubtitle": "主催者が新しいイベントを公開する場合",
     "followPrefsSave": "設定を保存",
     "followPrefsSaveA11y": "設定を保存",
-    "inAppToastA11y": "↑↓ ↑ ↑ ↑ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓"
+    "inAppToastA11y": "↑↓ ↑ ↑ ↑ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓",
+    "webviewVisioTitle": "ビデオ通話"
   },
   "messageRequests": {
     "eyebrow": "アンティスパム",
