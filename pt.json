@@ -1257,7 +1257,9 @@
     "finalizeClosedBody": "O período de inscrição para este evento terminou.",
     "finalizeSoldOutTitle": "Bilhetes esgotados",
     "finalizeSoldOutBody": "Os bilhetes que tinha reservado já não estão disponíveis. A sua reserva expirou. Não foste acusado.",
-    "finalizeBackToEvent": "Voltar ao evento"
+    "finalizeBackToEvent": "Voltar ao evento",
+    "paymentPushSentTitle": "Confirmar no seu telemóvel",
+    "paymentPushSentMessage": "Um pedido de pagamento foi enviado para o seu telefone. Aprovar (Mobile Money PIN) para completar."
   },
   "memories": {
     "title": "As minhas memórias",

@@ -1257,7 +1257,9 @@
     "finalizeClosedBody": "本イベントの参加登録期間は終了いたしました。",
     "finalizeSoldOutTitle": "チケット販売",
     "finalizeSoldOutBody": "予約したチケットはご利用いただけません。 予約期限が切れました。 お問い合わせ",
-    "finalizeBackToEvent": "イベントに戻る"
+    "finalizeBackToEvent": "イベントに戻る",
+    "paymentPushSentTitle": "お電話にて確認",
+    "paymentPushSentMessage": "お支払いはお電話にて承っております。 それを承認する(モバイルマネーPIN)完了します。"
   },
   "memories": {
     "title": "私の思い出",

@@ -1257,7 +1257,9 @@
     "finalizeClosedBody": "Il periodo di registrazione per questo evento è terminato.",
     "finalizeSoldOutTitle": "Biglietti esauriti",
     "finalizeSoldOutBody": "I biglietti che avevi prenotato non sono più disponibili. La tua prenotazione è scaduta. Non sei stato accusato.",
-    "finalizeBackToEvent": "Torna all'evento"
+    "finalizeBackToEvent": "Torna all'evento",
+    "paymentPushSentTitle": "Conferma sul telefono",
+    "paymentPushSentMessage": "Una richiesta di pagamento è stata inviata al telefono. Approvarlo (Mobile Money PIN) per completare."
   },
   "memories": {
     "title": "I miei ricordi",

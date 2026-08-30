@@ -1257,7 +1257,9 @@
     "finalizeClosedBody": "وقد انتهت فترة تسجيل هذا الحدث.",
     "finalizeSoldOutTitle": "بطاقات بيعت",
     "finalizeSoldOutBody": "التذاكر التي حجزتها لم تعد متاحة حجزك انتهى لم يتم اتهامك",
-    "finalizeBackToEvent": "العودة إلى الحدث"
+    "finalizeBackToEvent": "العودة إلى الحدث",
+    "paymentPushSentTitle": "تأكد على هاتفك",
+    "paymentPushSentMessage": "طلب الدفع أرسل إلى هاتفك أوافق على إتمامه"
   },
   "memories": {
     "title": "ذكرياتي",

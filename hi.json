@@ -1257,7 +1257,9 @@
     "finalizeClosedBody": "इस घटना के लिए पंजीकरण अवधि समाप्त हो गई है।",
     "finalizeSoldOutTitle": "टिकट बेच दिया",
     "finalizeSoldOutBody": "आपके द्वारा आरक्षित टिकट अब उपलब्ध नहीं हैं। आपका आरक्षण समाप्त हो गया। आप आरोपित नहीं थे।",
-    "finalizeBackToEvent": "घटना वापस"
+    "finalizeBackToEvent": "घटना वापस",
+    "paymentPushSentTitle": "अपने फोन पर पुष्टि करें",
+    "paymentPushSentMessage": "एक भुगतान अनुरोध आपके फोन पर भेजा गया था। इसे पूरा करने के लिए (मोबाइल मनी पिन) को मंजूरी दें।"
   },
   "memories": {
     "title": "मेरी याद",

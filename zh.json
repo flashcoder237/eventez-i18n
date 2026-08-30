@@ -1257,7 +1257,9 @@
     "finalizeClosedBody": "这一活动的登记期已告结束。",
     "finalizeSoldOutTitle": "售出车票",
     "finalizeSoldOutBody": "你预留的门票已经没有了 你的订位到期了 你没有被起诉。",
-    "finalizeBackToEvent": "返回活动"
+    "finalizeBackToEvent": "返回活动",
+    "paymentPushSentTitle": "电话确认",
+    "paymentPushSentMessage": "向您的电话发出了付款请求。 批准(Mobile Money PIN)完成."
   },
   "memories": {
     "title": "我的记忆",

@@ -1257,7 +1257,9 @@
     "finalizeClosedBody": "Срок регистрации на это мероприятие закончился.",
     "finalizeSoldOutTitle": "Билеты распроданы",
     "finalizeSoldOutBody": "Билеты, которые вы забронировали, больше не доступны. Ваш заказ истек. Вам не предъявили обвинения.",
-    "finalizeBackToEvent": "Вернуться к Событию"
+    "finalizeBackToEvent": "Вернуться к Событию",
+    "paymentPushSentTitle": "Подтвердите на своем телефоне",
+    "paymentPushSentMessage": "На ваш телефон был отправлен платежный запрос. Одобрить его (Mobile Money PIN) для завершения."
   },
   "memories": {
     "title": "Мои воспоминания",

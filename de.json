@@ -1257,7 +1257,9 @@
     "finalizeClosedBody": "Der Anmeldezeitraum für diese Veranstaltung ist abgelaufen.",
     "finalizeSoldOutTitle": "Tickets ausverkauft",
     "finalizeSoldOutBody": "Die Tickets, die Sie reserviert haben, sind nicht mehr verfügbar. Ihre Reservierung ist abgelaufen. Sie wurden nicht angeklagt.",
-    "finalizeBackToEvent": "Zurück zur Veranstaltung"
+    "finalizeBackToEvent": "Zurück zur Veranstaltung",
+    "paymentPushSentTitle": "Bestätigen Sie auf Ihrem Telefon",
+    "paymentPushSentMessage": "Eine Zahlungsanforderung wurde an Ihr Telefon gesendet. Genehmigen Sie es (Mobile Money PIN) zu vervollständigen."
   },
   "memories": {
     "title": "Meine Erinnerungen",
